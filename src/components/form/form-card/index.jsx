@@ -71,13 +71,12 @@ const FormCard = () => {
         comment: coment,
       }),
     );
+
+    e.target[0].value = null
+    e.target[1].value = null
+    e.target[2].value = null
+    e.target[3].value = null
   };
-  console.log({
-    name: names,
-    phone_number: number,
-    email: mail,
-    comment: coment,
-  })
   useEffect(() => {
     !number || !names || !mail || !coment ? setDisableds(true) : setDisableds(false);
   }, [coment]);

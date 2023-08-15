@@ -8,100 +8,40 @@ import { useEffect, useState } from "react";
 import { Col, Row } from "react-grid-system";
 import { Card } from "../../common/card-common";
 import { CategoryGet } from "../../../redux/category";
+import { ProductGet } from "../../../redux/products";
 import { useSelector, useDispatch } from "react-redux";
 
-const data = [
-  {
-    id: "p1",
-    catalog_id: 1,
-    title: "БУМАГА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p2",
-    catalog_id: 2,
-    title: "Фанера",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p3",
-    catalog_id: 3,
-    title: "БУМАГА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p4",
-    catalog_id: 4,
-    title: "СТРЕЙЧ ПЛЕНКА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p5",
-    catalog_id: 5,
-    title: "БУМАГА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p6",
-    catalog_id: 1,
-    title: "ГОФРОПРОДУКЦИЯ",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-];
-
-
-
-
 export const CatalogProducts = () => {
-  const catalog = [
-    {
-      id: 1,
-      catalog: "БУМАГА",
-    },
-    {
-      id: 2,
-      catalog: "Фанера",
-    },
-    {
-      id: 3,
-      catalog: "СТРЕЙЧ ПЛЕНКА",
-    },
-    {
-      id: 4,
-      catalog: "ГОФРОПРОДУКЦИЯ",
-    },
-    {
-      id: 5,
-      catalog: "ТЕРМОУСАДОЧНАЯ ПЛЕНКА",
-    },
-  ];
+ 
   const LangVal = () => {
     return window.localStorage.getItem("i18nextLng");
   };
-  const [products, setProducts] = useState(data);
+
+
+
   const dispatch = useDispatch()
   const categoryGetState = useSelector((state) => state.category.categoryGet?.data);
-  console.log(categoryGetState)
+
+  const productGetState = useSelector((state) => state.product.productGet?.data);
+  const [productS, setProductS] = useState(productGetState);
+  console.log(productS)
   useEffect(() => {
     dispatch(CategoryGet())
   }, [])
+
+  useEffect(() => {
+    dispatch(ProductGet())
+  }, [])
+
 
 
 
   const HandleFilter = (e) => {
     e.preventDefault();
-    // let filtered = data.filter(
-    //   (product) => product.catalog_id === +e.target.id
-    // );
-
-    let filtered = categoryGetState.map(elem => elem.products.filter((product) => product.id === +e.target.id))
-    setProducts(filtered);
+    let filtered = productGetState.filter(
+      (product) => product.id === +e.target.id
+    );
+    setProductS(filtered);
   };
 
   return (
@@ -137,6 +77,42 @@ export const CatalogProducts = () => {
         <BigContainer>
           <Row className={styles.catalog_row}>
             {
+              productS?.map(product => (
+                <Col
+                  className={styles.catalog_col}
+                  lg={4}
+                  md={6}
+                  sx={6}
+                  sm={12}
+                  key={product.id}
+                >
+                  <Card
+                    title={
+                      LangVal() == "ru"
+                        ? product.title_ru
+                        : LangVal() == "uz"
+                          ? product.title_uz
+                          : LangVal() == "en"
+                            ? product.title_en
+                            : product.title_ru
+                    }
+                    text={
+                      LangVal() == "ru"
+                        ? `${product.description_ru}`
+                        : LangVal() == "uz"
+                          ? `${product.description_uz}`
+                          : LangVal() == "en"
+                            ? `${product.description_en}`
+                            : `${product.description_ru}`
+                    }
+                    image={product.image}
+                    id={product.id}
+                  />
+                </Col>
+              ))
+            }
+
+            {/* {
               categoryGetState.map(elem => (
                 elem.products.map(product => (
                   <Col
@@ -159,12 +135,12 @@ export const CatalogProducts = () => {
                       }
                       text={
                         LangVal() == "ru"
-                          ? `${product.description_ru.slice(0, 50)}...`
+                          ? `${product.description_ru}`
                           : LangVal() == "uz"
-                            ? `${product.description_uz.slice(0, 50)}...`
+                            ? `${product.description_uz}`
                             : LangVal() == "en"
-                              ? `${product.description_en.slice(0, 50)}...`
-                              : `${product.description_ru.slice(0, 50)}...`
+                              ? `${product.description_en}`
+                              : `${product.description_ru}`
                       }
                       image={product.image}
                       id={product.id}
@@ -172,7 +148,7 @@ export const CatalogProducts = () => {
                   </Col>
                 ))
               ))
-            }
+            } */}
           </Row>
         </BigContainer>
       </div>
