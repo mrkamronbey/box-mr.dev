@@ -30,7 +30,6 @@ const ProductDetails = () => {
         dispatch(ProductGet())
     }, [])
     const productFilter = productGetState.filter(elem => elem.id == id)
-    console.log(productFilter)
 
     const LangVal = () => {
         return window.localStorage.getItem("i18nextLng");
@@ -69,7 +68,7 @@ const ProductDetails = () => {
                                             </p>
                                             <div className={styles.product_detail_number_box}>
                                                 <p>{elem.number}</p>
-                                                <p>Едениц производится в день</p>
+                                                <p>{t("ProductMore.6")}</p>
                                             </div>
                                             <div className={styles.hr}></div>
                                             <Button>{t("ProductMore.5")}</Button>

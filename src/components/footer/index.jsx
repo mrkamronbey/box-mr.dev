@@ -4,9 +4,26 @@ import { BigContainer } from "../../style-app";
 import { useTranslation } from "react-i18next";
 import LogoFooter from "../../assets/footer/Logo-footer.svg";
 import styles from "./footer.module.css";
+import { CategoryGet } from "../../redux/category/index";
+import { useSelector, useDispatch } from "react-redux";
+import { useEffect } from "react";
 
 export const Footer = () => {
+  const LangVal = () => {
+    return window.localStorage.getItem("i18nextLng");
+  };
   const { t } = useTranslation();
+  const dispatch = useDispatch()
+  const categoryGetState = useSelector((state) => state.category.categoryGet?.data);
+  console.log(categoryGetState)
+  useEffect(() => {
+    dispatch(CategoryGet())
+  }, [])
+
+  const handleTop = () => {
+    window.scrollTo(0, 300)
+  }
+
   return (
     <>
       <Col className={styles.footer_top}>
@@ -18,12 +35,22 @@ export const Footer = () => {
               </Link>
             </Col>
             <Col lg={3} md={3} sx={12} sm={12} className={styles.footer_list}>
-              <Link to="/catalog">{t("Footer.0")}</Link>
-              <Link to="/catalog">{t("Footer.1")}</Link>
-              <Link to="/catalog">{t("Footer.2")}</Link>
-              <Link to="/catalog">{t("Footer.3")}</Link>
-              <Link to="/catalog">{t("Footer.4")}</Link>
-              <Link to="/catalog">{t("Footer.5")}</Link>
+              <Link onClick={handleTop} to="/catalog">{t("Footer.0")}</Link>
+              {
+                categoryGetState.map(elem => (
+                  <>
+                    <Link onClick={handleTop} id={elem.id} to="/catalog">{
+                      LangVal() == "ru"
+                        ? elem.title_ru
+                        : LangVal() == "uz"
+                          ? elem.title_uz
+                          : LangVal() == "en"
+                            ? elem.title_en
+                            : elem.title_ru
+                    }</Link>
+                  </>
+                ))
+              }
             </Col>
             <Col lg={3} md={3} sx={12} sm={12} className={styles.footer_list}>
               <span className={styles.footer_list_span}>{t("Footer.6")}</span>

@@ -24,22 +24,22 @@ export const CategoryPut = createAsyncThunk(
   async ({ body, id }) => {
     return await axios
       .put(`${API_URL}/category/${id}`, body)
-      .then((response) => response.data);
+      .then((response) => console.log(response.data));
   }
 );
 
-export const UploadCategoryImage = createAsyncThunk("CategoryImg/upload", async (e) => {
-  const formData = new FormData();
-  formData.append("file", e.target.files[0]);
-  formData.append("upload_preset", "dat87nly");
-  try {
-    return await axios
-      .post("https://api.cloudinary.com/v1_1/dffclbjds/upload", formData)
-      .then((response) => response?.data.secure_url);
-  } catch (error) {
-    return error;
-  }
-});
+// export const UploadCategoryImage = createAsyncThunk("CategoryImg/upload", async (e) => {
+//   const formData = new FormData();
+//   formData.append("file", e.target.files[0]);
+//   formData.append("upload_preset", "pa92xo85");
+//   try {
+//     return await axios
+//       .post("https://api.cloudinary.com/v1_1/dc3qaagzz/upload", formData)
+//       .then((response) => response?.data.secure_url);
+//   } catch (error) {
+//     return error;
+//   }
+// });
 const CategorySlice = createSlice({
   name: "admin",
   initialState: {
@@ -64,12 +64,12 @@ const CategorySlice = createSlice({
       Loading: false,
       Success: false,
     },
-    uploadCategoryImage: {
-      Error: false,
-      Loading: false,
-      Success: false,
-      data: "",
-    },
+    // uploadCategoryImage: {
+    //   Error: false,
+    //   Loading: false,
+    //   Success: false,
+    //   data: "",
+    // },
   },
   extraReducers: {
     // get
@@ -131,20 +131,21 @@ const CategorySlice = createSlice({
       state.categoryPut.Loading = false;
     },
 
-    [UploadCategoryImage.pending]: (state, action) => {
-      state.uploadCategoryImage.Loading = true;
-    },
-    [UploadCategoryImage.fulfilled]: (state, action) => {
-      state.uploadCategoryImage.Error = false;
-      state.uploadCategoryImage.Success = true;
-      state.uploadCategoryImage.Loading = false;
-      state.uploadCategoryImage.data = action.payload;
-    },
-    [UploadCategoryImage.rejected]: (state, action) => {
-      state.uploadCategoryImage.Error = true;
-      state.uploadCategoryImage.Success = false;
-      state.uploadCategoryImage.Loading = false;
-    },
+    // [UploadCategoryImage.pending]: (state, action) => {
+    //   state.uploadCategoryImage.Loading = true;
+    // },
+    // [UploadCategoryImage.fulfilled]: (state, action) => {
+    //   state.uploadCategoryImage.Error = false;
+    //   state.uploadCategoryImage.Success = true;
+    //   state.uploadCategoryImage.Loading = false;
+    //   state.uploadCategoryImage.data = action.payload;
+
+    // },
+    // [UploadCategoryImage.rejected]: (state, action) => {
+    //   state.uploadCategoryImage.Error = true;
+    //   state.uploadCategoryImage.Success = false;
+    //   state.uploadCategoryImage.Loading = false;
+    // },
   },
 });
 

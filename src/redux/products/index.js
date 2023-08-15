@@ -21,17 +21,42 @@ export const ProductPut = createAsyncThunk(
   async ({ body, id }) => {
     return await axios
       .put(`${API_URL}/products/${id}`, body)
-      .then((response) => response.data);
+      .then((response) => console.log(response.data));
   }
 );
 
 export const UploadImage = createAsyncThunk("Product/upload", async (e) => {
   const formData = new FormData();
   formData.append("file", e.target.files[0]);
-  formData.append("upload_preset", "dat87nly");
+  formData.append("upload_preset", "pa92xo85");
   try {
     return await axios
-      .post("https://api.cloudinary.com/v1_1/dffclbjds/upload", formData)
+      .post("https://api.cloudinary.com/v1_1/dc3qaagzz/upload", formData)
+      .then((response) => response?.data.secure_url);
+  } catch (error) {
+    return error;
+  }
+});
+
+export const UploadImage2 = createAsyncThunk("Product/upload2", async (e) => {
+  const formData = new FormData();
+  formData.append("file", e.target.files[0]);
+  formData.append("upload_preset", "pa92xo85");
+  try {
+    return await axios
+      .post("https://api.cloudinary.com/v1_1/dc3qaagzz/upload", formData)
+      .then((response) => response?.data.secure_url);
+  } catch (error) {
+    return error;
+  }
+});
+export const UploadImage3 = createAsyncThunk("Product/upload3", async (e) => {
+  const formData = new FormData();
+  formData.append("file", e.target.files[0]);
+  formData.append("upload_preset", "pa92xo85");
+  try {
+    return await axios
+      .post("https://api.cloudinary.com/v1_1/dc3qaagzz/upload", formData)
       .then((response) => response?.data.secure_url);
   } catch (error) {
     return error;
@@ -62,6 +87,18 @@ const ProductSlice = createSlice({
       Success: false,
     },
     uploadProjects: {
+      Error: false,
+      Loading: false,
+      Success: false,
+      data: "",
+    },
+    uploadProjects2: {
+      Error: false,
+      Loading: false,
+      Success: false,
+      data: "",
+    },
+    uploadProjects3: {
       Error: false,
       Loading: false,
       Success: false,
@@ -140,6 +177,36 @@ const ProductSlice = createSlice({
       state.uploadProjects.Error = true;
       state.uploadProjects.Success = false;
       state.uploadProjects.Loading = false;
+    },
+
+    [UploadImage2.pending]: (state, action) => {
+      state.uploadProjects2.Loading = true;
+    },
+    [UploadImage2.fulfilled]: (state, action) => {
+      state.uploadProjects2.Error = false;
+      state.uploadProjects2.Success = true;
+      state.uploadProjects2.Loading = false;
+      state.uploadProjects2.data = action.payload;
+    },
+    [UploadImage2.rejected]: (state, action) => {
+      state.uploadProjects2.Error = true;
+      state.uploadProjects2.Success = false;
+      state.uploadProjects2.Loading = false;
+    },
+
+    [UploadImage3.pending]: (state, action) => {
+      state.uploadProjects3.Loading = true;
+    },
+    [UploadImage3.fulfilled]: (state, action) => {
+      state.uploadProjects3.Error = false;
+      state.uploadProjects3.Success = true;
+      state.uploadProjects3.Loading = false;
+      state.uploadProjects3.data = action.payload;
+    },
+    [UploadImage3.rejected]: (state, action) => {
+      state.uploadProjects3.Error = true;
+      state.uploadProjects3.Success = false;
+      state.uploadProjects3.Loading = false;
     },
   },
 });
