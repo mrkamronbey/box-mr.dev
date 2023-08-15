@@ -1,0 +1,112 @@
+.footer_top {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #7e7e7e;
+}
+
+.footer_bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #313234;
+}
+
+.copy_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: #ffffff;
+}
+
+.copy_right>a {
+    color: #ffffff;
+}
+
+.footer_top_row {
+    margin: 0 !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.footer_list {
+    padding: 0 !important;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.footer_list>a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer_list_span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer_adress{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer_img {
+        width: 154px;
+        height: 186px;
+    }
+
+    .footer_list>a {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .footer_list_span {
+        font-size: 16px;
+        line-height: 15px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .footer_list {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width:100% !important;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .footer_logo {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer_list {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-bottom: 40px;
+        border-bottom: 2px solid #ffffff;
+        padding-bottom: 10px !important;
+    }
+
+    .footer_logo {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+}

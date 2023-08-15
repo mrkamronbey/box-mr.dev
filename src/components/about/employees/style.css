@@ -1,0 +1,11 @@
+.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content{
+    box-shadow: none;
+}
+
+.slider-left>div>i{
+    color: #000000;
+}
+
+.slider-right>div>i{
+    color: #000000;
+}

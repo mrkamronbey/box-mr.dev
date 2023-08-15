@@ -1,0 +1,31 @@
+.blog_list{
+    padding-top: 90px;
+    padding-bottom: 75px;
+}
+
+.blog_row{
+    justify-content: center !important;
+    margin: 0 !important;
+}
+
+.blog_col{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media only screen and (max-width: 1110px){
+    .blog_col{
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .blog_col{
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}

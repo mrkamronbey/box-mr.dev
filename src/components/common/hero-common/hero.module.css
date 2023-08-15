@@ -1,0 +1,123 @@
+.hero_section {
+    background-image: url("../../../assets/home/hero-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* z-index: 100 !important; */
+}
+
+.home_hero_row {
+    margin: 0 !important;
+}
+
+.home_hero_col { 
+    margin: 160px 0 112px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 !important;
+}
+
+.home_hero_col>img {
+    width: 100%;
+    height: 100%;
+}
+
+.home_hero_col>h2 {
+    max-width: 783px;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 61.2px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color:#000000;
+;
+}
+
+.home_hero_col>p {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 622px;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 0.065em;
+    color: #000000;
+    margin-bottom: 65px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .home_hero_row {
+        padding: 0 20px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .home_hero_col>img {
+        width: 100%;
+        height: 406px;
+    }
+}
+
+@media only screen and (max-width: 954px) {
+    .home_hero_col>img {
+        width: 100%;
+        height: 306px;
+    }
+
+    .home_hero_col>h2 {
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .home_hero_col>p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home_hero_col>img {
+        width: 100%;
+        height: 290px;
+    }
+
+    .home_hero_col {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .home_hero_col>img {
+        width: 100%;
+        height: 505px;
+    }
+
+    .home_hero_col>p {
+        text-align: center;
+    }
+
+    .home_hero_col>h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .home_hero_col>img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .home_hero_col>h2 {
+        font-size: 26px;
+        line-height: 120%;
+    }
+}

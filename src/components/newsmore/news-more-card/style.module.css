@@ -1,0 +1,33 @@
+.news_more_cards{
+    margin-bottom: 30px;
+}
+
+.news_more_link{
+    text-decoration: none;
+}
+
+.news_more_content > span {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.news_more_content > span > time {
+  color: #7688a4;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.news_more_content > h4 {
+  color: #202020;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+

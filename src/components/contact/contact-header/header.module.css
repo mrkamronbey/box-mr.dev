@@ -1,0 +1,156 @@
+.header {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: 0 !important;
+    background-color: #fff;
+}
+
+.header_row {
+    margin: 0 !important;
+    position: relative !important;
+}
+
+.header_bg {
+    background-color: #ffffff;
+    transition: .5s all ease-in;
+}
+
+.header_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_nav_active{
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header_socials>a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.header_socials_active{
+    margin-top: 30px !important;
+}
+
+.header_socials_active>a{
+    color: #ffffff;
+}
+
+.header_nav>a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14.52px;
+    color: #000000;
+}
+
+.header_nav_active>a{
+    color: #ffffff;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+.span {
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 14.52px;
+    color: #000000;
+}
+
+.icon {
+    color: #0E9E2F;
+}
+
+.hamburger_icon{
+    font-size: 30px;
+}
+
+.header_nav>a:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1230px) {
+    .span {
+        display: none;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .header_socials {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .header_list{
+        padding-top: 40px !important;
+        padding-bottom: 60px !important;
+        position: absolute !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        right: -100% !important;
+        top:100px;
+        text-align: center;
+        width: 100% !important;
+        transition: 0.3s;
+        z-index: -1;
+        background-color: rgba(0,0,0,.9);
+    }
+
+    .header_list_active{
+        right: 0 !important;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 100% !important;
+    }
+
+    .hamburger>button{
+        padding: 10px 15px;
+    }
+
+    .header_row{
+        justify-content: space-between !important;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .header_logo{
+        width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+}

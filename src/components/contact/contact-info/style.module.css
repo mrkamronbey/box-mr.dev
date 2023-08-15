@@ -1,0 +1,173 @@
+.contact_section {
+  padding: 160px 0 50px 0;
+}
+.contact_row {
+  margin: 0 !important;
+}
+
+.contact_title {
+  color: #494b44;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 84px */
+  text-transform: uppercase;
+}
+
+.contact_address > h4 {
+  margin: 20px 0;
+  color: #494b44;
+  font-feature-settings: "sups" on;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.contact_address > p {
+  color: #92938f;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 300px;
+  margin: 0 0 20px 0;
+}
+
+.contact_img_wrapp > img {
+  height: 410px;
+}
+
+.contact_first_box,
+.contact_second_box {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.contact_first_box > a {
+  color: #0e9e2f;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  display: block;
+  text-decoration: none;
+}
+
+.contact_second_box > h4 {
+  color: #494b44;
+  font-feature-settings: "sups" on;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact_second_box > .green_link {
+  color: #0e9e2f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  display: block;
+  text-decoration: none;
+}
+
+.contact_second_box > .second_mail {
+  color: #494b44;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+}
+
+.contact_third_box > h4 {
+  color: #494b44;
+  font-feature-settings: "sups" on;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.contact_third_box > .green_link {
+  color: #0e9e2f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  display: block;
+  text-decoration: none;
+}
+
+.contact_third_box > .second_mail {
+  color: #494b44;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+  display: block;
+}
+
+.contact_third_item {
+  margin-top: 30px;
+}
+
+.contact_third_item > p {
+  color: #92938f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  max-width: 350px;
+}
+
+.contact_third_item > .green_link {
+  color: #0e9e2f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  display: block;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .contact_title,
+  .contact_address > h4,
+  .contact_second_box > h4,
+  .contact_third_box > h4 {
+    font-size: 23px;
+  }
+  .contact_address > p,
+  .contact_first_box > a,
+  .contact_second_box > .green_link,
+  .contact_second_box > .second_mail,
+  .contact_third_box > .green_link,
+  .contact_third_box > .second_mail {
+    font-size: 18px;
+  }
+
+  .contact_img_wrapp > img {
+    height: 210px;
+  }
+}

@@ -1,0 +1,162 @@
+:root {
+  --cs: 100px;
+  --br: 5px;
+}
+
+.map {
+  position: relative;
+}
+
+.mobile_form {
+  display: none;
+}
+
+.form_card {
+  position: absolute;
+  margin: auto;
+  top: 75px;
+  left: 50px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--br);
+  background-color: #ffffff;
+  color: #363c5f;
+  padding: 50px 20px 30px 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--cs)) 0,
+    100% var(--cs),
+    100% 100%,
+    0 100%
+  );
+}
+
+.form_card > h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.form_card {
+  content: "";
+  display: block;
+  /* width: 560px; */
+  /* height: 585px; */
+  background-color: #00ab09;
+  border-bottom-left-radius: var(--br);
+}
+
+.form_formik {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form_label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.form_label > input {
+  min-width: 210px;
+  border-radius: 10px;
+  padding: 16px 13px;
+  border: none;
+}
+
+.form_label > textarea {
+  max-width: 540px;
+  border-radius: 10px;
+  padding: 18px 10px;
+  min-height: 95px;
+  resize: none;
+}
+
+.form_label_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.privacy {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.privacy > p {
+  max-width: 409px;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #f2f2f2;
+}
+
+.form_btn {
+  display: inline-block;
+  max-width: 205px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 18px 40px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16.9px;
+}
+
+@media only screen and (max-width: 1220px) {
+  .form_label_box {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .map {
+    position: static;
+  }
+  .form_card {
+    display: none;
+  }
+
+  .mobile_form {
+    display: block;
+    background-color: #00ab09;
+    padding: 30px;
+  }
+
+  .mobile_form > h4 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .mobile_form textarea{
+    width: auto !important;
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+    .mobile_form > h4 {
+        font-size: 23px;
+    }
+}
