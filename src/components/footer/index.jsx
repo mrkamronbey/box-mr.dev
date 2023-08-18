@@ -19,7 +19,7 @@ export const Footer = () => {
   );
   useEffect(() => {
     dispatch(CategoryGet());
-  }, []);
+  }, [dispatch]);
 
   const handleTop = () => {
     window.scrollTo(0, 300);
@@ -50,11 +50,11 @@ export const Footer = () => {
                   id={elem.id}
                   to="/catalog"
                 >
-                  {LangVal() == "ru"
+                  {LangVal() === "ru"
                     ? elem.title_ru
-                    : LangVal() == "uz"
+                    : LangVal() === "uz"
                     ? elem.title_uz
-                    : LangVal() == "en"
+                    : LangVal() === "en"
                     ? elem.title_en
                     : elem.title_ru}
                 </Link>
