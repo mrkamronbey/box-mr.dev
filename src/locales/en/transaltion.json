@@ -127,5 +127,17 @@
     "14": "Republic of Uzbekistan",
     "15": "1000005 Tashkent",
     "16": "Yangihayot district b South industrial zone 154"
+  },
+  "Modal":{
+    "0":"Please select a weight or length",
+    "1":"please fill out the form completely",
+    "2":"Calculate films",
+    "3":"Enter data to calculate film length",
+    "4":"Weight",
+    "5":"Length",
+    "6":"Width",
+    "7":"Thickness",
+    "8":"Reset",
+    "9":"Calculate"
   }
 }

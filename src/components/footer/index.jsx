@@ -13,44 +13,52 @@ export const Footer = () => {
     return window.localStorage.getItem("i18nextLng");
   };
   const { t } = useTranslation();
-  const dispatch = useDispatch()
-  const categoryGetState = useSelector((state) => state.category.categoryGet?.data);
-  console.log(categoryGetState)
+  const dispatch = useDispatch();
+  const categoryGetState = useSelector(
+    (state) => state.category.categoryGet?.data
+  );
   useEffect(() => {
-    dispatch(CategoryGet())
-  }, [])
+    dispatch(CategoryGet());
+  }, []);
 
   const handleTop = () => {
-    window.scrollTo(0, 300)
-  }
+    window.scrollTo(0, 300);
+  };
 
   return (
     <>
       <Col className={styles.footer_top}>
         <BigContainer>
-          <Row className={styles.footer_top_row} >
+          <Row className={styles.footer_top_row}>
             <Col lg={3} md={3} sx={12} sm={12} className={styles.footer_logo}>
               <Link to="/">
-                <img className={styles.footer_img} src={LogoFooter} alt="company logo" />
+                <img
+                  className={styles.footer_img}
+                  src={LogoFooter}
+                  alt="company logo"
+                />
               </Link>
             </Col>
             <Col lg={3} md={3} sx={12} sm={12} className={styles.footer_list}>
-              <Link onClick={handleTop} to="/catalog">{t("Footer.0")}</Link>
-              {
-                categoryGetState.map(elem => (
-                  <>
-                    <Link onClick={handleTop} id={elem.id} to="/catalog">{
-                      LangVal() == "ru"
-                        ? elem.title_ru
-                        : LangVal() == "uz"
-                          ? elem.title_uz
-                          : LangVal() == "en"
-                            ? elem.title_en
-                            : elem.title_ru
-                    }</Link>
-                  </>
-                ))
-              }
+              <Link onClick={handleTop} to="/catalog">
+                {t("Footer.0")}
+              </Link>
+              {categoryGetState.map((elem) => (
+                <Link
+                  onClick={handleTop}
+                  key={elem.id}
+                  id={elem.id}
+                  to="/catalog"
+                >
+                  {LangVal() == "ru"
+                    ? elem.title_ru
+                    : LangVal() == "uz"
+                    ? elem.title_uz
+                    : LangVal() == "en"
+                    ? elem.title_en
+                    : elem.title_ru}
+                </Link>
+              ))}
             </Col>
             <Col lg={3} md={3} sx={12} sm={12} className={styles.footer_list}>
               <span className={styles.footer_list_span}>{t("Footer.6")}</span>

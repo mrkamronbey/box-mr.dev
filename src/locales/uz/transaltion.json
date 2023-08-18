@@ -127,5 +127,17 @@
     "14": "O'zbekiston Respublikasi",
     "15": "1000005 Toshkent",
     "16": "Yangixayot tumanib Janubiy sanoat zonasi 154"
+  },
+  "Modal":{
+    "0":"Iltimos, vazn yoki uzunlikni tanlang",
+    "1":"iltimos, anketani to'liq to'ldiring",
+    "2":"Filmlarni hisoblash",
+    "3":"Film uzunligini hisoblash uchun ma'lumotlarni kiriting",
+    "4":"Og'irlik",
+    "5":"Uzunlik",
+    "6":"Kengligi",
+    "7":"Qalinligi",
+    "8":"Tozalash",
+    "9":"Hisoblash"
   }
 }
