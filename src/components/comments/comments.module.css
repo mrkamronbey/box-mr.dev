@@ -4,6 +4,7 @@
     background-image: url(../../assets/factory/bg-line1.png);
     background-repeat: no-repeat;
     background-size: contain;
+    overflow: hidden;
 }
 
 .choose_title{

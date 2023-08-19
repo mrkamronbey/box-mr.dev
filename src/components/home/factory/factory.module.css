@@ -85,3 +85,14 @@
     }
 
 }
+
+@media only screen and (max-width: 830px){
+    .col{
+        width: 100%;
+        flex: 0 0 100% !important;
+    }
+
+    .factory_imgdiv>img {
+        width: 100%;
+    }
+}

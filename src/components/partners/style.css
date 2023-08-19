@@ -1,5 +1,5 @@
 /* Slider elementlari bo'yicha stil o'zgarishlari */
-.partners_scroll_div__oF2Tq > .slick-slider .slick-slide div{
+.partners_scroll_div__SvZbS > .slick-slider .slick-slide div{
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -7,7 +7,7 @@
 }
 
 
-.partners_scroll_div__oF2Tq .slick-slide div img {
+.partners_scroll_div__SvZbS .slick-slide div img {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -16,24 +16,24 @@
 }
 
 
-/* .partners_scroll_div__7Iv7U .slick-prev,
-.partners_scroll_div__7Iv7U .slick-next {
+.partners_scroll_div__SvZbS .slick-prev,
+.partners_scroll_div__SvZbS .slick-next {
   z-index: 999 !important;
   display: none !important;
 }
 
 
-.partners_scroll_div__7Iv7U .slick-prev {
+.partners_scroll_div__SvZbS .slick-prev {
   left: 15px !important;
 }
 
 
-.partners_scroll_div__7Iv7U .slick-next {
+.partners_scroll_div__SvZbS .slick-next {
   right: 15px !important;
 }
 
 
-.partners_scroll_div__7Iv7U .slick-prev:before,
-.partners_scroll_div__7Iv7U .slick-next:before {
+.partners_scroll_div__SvZbS .slick-prev:before,
+.partners_scroll_div__SvZbS .slick-next:before {
   color: #03544c !important;
-} */
+}
