@@ -11,7 +11,7 @@
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  /* width: 100px; */
+  width: 150px;
   height: 100%;
 }
 
@@ -36,4 +36,10 @@
 .partners_scroll_div__SvZbS .slick-prev:before,
 .partners_scroll_div__SvZbS .slick-next:before {
   color: #03544c !important;
+}
+
+@media only screen and (max-width: 460px){
+  .partners_scroll_div__SvZbS .slick-slide div img {
+    width: 100px;
+  }
 }

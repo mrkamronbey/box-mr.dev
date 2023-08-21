@@ -2,6 +2,10 @@
     box-shadow: none !important;
 }
 
+.react-3d-carousel{
+    height: 685px !important;
+}
+
 .slider-left>div>i{
     color: #000000;
 }
