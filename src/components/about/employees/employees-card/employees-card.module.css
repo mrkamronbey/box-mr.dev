@@ -6,6 +6,10 @@
     background-color: #00AB09;
 }
 
+.card_employees >img{
+    max-height: 600px;
+}
+
 .card_content{
     padding: 15px 25px 20px 25px;
     background-color: #00AB09;
