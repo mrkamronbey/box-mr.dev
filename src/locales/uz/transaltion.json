@@ -23,6 +23,8 @@
     "5":"Blog",
     "6":"Vakansiya",
     "7":"Xizmatlar",
+    "8":"yillar ishlagan",
+    "9":"15 yildan ortiq muvaffaqiyat bozorda ishlash",
     "Factory": {
       "0": "Maxsus quti dizayni:",
       "1": "Bizning maxsus quti dizaynlarimiz bilan o'zingizning noyobligingizni ko'rsating. Sizning uslubingiz va brendingizni aks ettiruvchi har bir quti uchun shaxsiylashtirilgan grafikalar yaratamiz. Qog'oz mahsulotlarini, masalan, qirqilgan sumkalar, qog'oz chodirlar va karton qutilar ishlab chiqarish bo'yicha tajribamiz sizning g'oyalaringizni sifatli va ijodiy dizaynga aylantirish imkonini beradi. Bizning maxsus grafikalarimiz yordamida o‘ramingizga o‘ziga xos tus qo‘shing.",
@@ -50,12 +52,14 @@
   "Employees": {
     "0": "Bizning xodimlarimiz",
     "1":"Ravshanov Sherali",
-    "2":"menejer",
-    "3":"Tog'aev Xasan",
-    "4":"Salomov O'tkir",
-    "5":"Aloev Jo`rabek",
-    "6":"Gorbacheva Dinara",
-    "7":"savdo bo'limi boshlig'i"
+    "2":"Sotish bo'yicha menejer",
+    "3": "Naimov Nurbek",
+    "4":"Enver Alievich",
+    "5":"Khabibullaev Umid",
+    "6": "Salomov O'tkir",
+    "7": "Aloev Jurabek",
+    "8": "Togaev Xasan",
+    "9":"Umudullayev Dilshod"
   },
   "Details": {
     "0": "Biz noyob grafikaga ega yuqori sifatli qog'oz mahsulotlarini ishlab chiqarishga ixtisoslashganmiz. Bizning assortimentimizga kesilgan sumkalar, qog'oz chodirlar va karton qutilar kiradi. Shuningdek, biz sizning qadoqlashingizga o'ziga xos va zamonaviy ko'rinish berish uchun ijodiy quti dizayn xizmatlarini taklif etamiz.",
