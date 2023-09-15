@@ -13,6 +13,9 @@ const NewsHero = () => {
         className={styles.bg}
         heroTitle={t("Home.6")}
       />
+
+
+      
     </>
   );
 };
