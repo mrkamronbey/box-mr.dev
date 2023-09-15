@@ -23,6 +23,8 @@
     "5": "Blog",
     "6": "News",
     "7": "Services",
+    "8":"years of work",
+    "9":"More than 15 years of successful work on the market",
     "Factory": {
       "0": "Custom box design:",
       "1": "Show off your uniqueness with our custom box designs. We create personalized graphics for each box that reflect your style and brand. Our experience in the production of paper products, such as clipped bags, paper tents and cardboard boxes, allows us to translate your ideas into quality and creative designs. Add a unique touch to your packaging with our custom graphics.",
@@ -50,12 +52,14 @@
   "Employees": {
     "0": "Our employees",
     "1": "Ravshanov Sherali",
-    "2": "manager",
-    "3": "Togaev Xasan",
-    "4": "Salomov O'tkir",
-    "5": "Aloev Jurabek",
-    "6": "Gorbacheva Dinara",
-    "7":"head of sales department"
+    "2": "Sales Manager",
+    "3": "Naimov Nurbek",
+    "4":"Enver Alievich",
+    "5":"Khabibullaev Umid",
+    "6": "Salomov O'tkir",
+    "7": "Aloev Jurabek",
+    "8": "Togaev Xasan",
+    "9":"Umudullayev Dilshod"
   },
   "Details": {
     "0": "We specialize in the production of high quality paper products with unique graphics. Our range includes sheared bags, paper tents and cardboard boxes. We also offer creative box design services to give your packaging a unique and stylish look.",
