@@ -3,16 +3,10 @@ import styles from "./hero.module.css";
 import { BigContainer } from "../../../style-app";
 import { Row, Col } from "react-grid-system";
 import Header from "../../header";
+import homeImg from "../../../assets/home/home-img.png";
 import { Modal } from "../modal";
 
-const HeroCommon = ({
-  heroTitle,
-  heroText,
-  heroBtn,
-  isBtn,
-  id,
-  className,
-}) => {
+const HeroCommon = ({ heroTitle, heroText, heroBtn, isBtn, id, className }) => {
   const [open, setOpen] = useState(false);
 
   const HandleOpen = () => {
@@ -25,14 +19,14 @@ const HeroCommon = ({
 
   return (
     <>
-    <Modal open={open} HandleClose={HandleClose}/>
+      <Modal open={open} HandleClose={HandleClose} />
       <div className={`${styles.hero_section} ${className}`}>
-        <Header />
+        <Header scroll={50} />
         <BigContainer>
           <Row className={styles.home_hero_row}>
             <Col
               className={styles.home_hero_col}
-              lg={10}
+              lg={8}
               md={8}
               sx={12}
               sm={12}
@@ -40,6 +34,20 @@ const HeroCommon = ({
               <h2>{heroTitle}</h2>
               <div className={styles.hero_buttons}>
                 {isBtn === true ? <a onClick={HandleOpen}>{heroBtn}</a> : null}
+              </div>
+            </Col>
+            <Col className={styles.home_right_col}>
+              <img className={styles.home_img} src={homeImg} alt="" />
+              <div className={styles.content}>
+                <h4>15+</h4>
+                <div className={styles.content_box}>
+                  <h4>
+
+                  </h4>
+                  <p>
+
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>

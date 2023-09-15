@@ -3,6 +3,7 @@ import { lazy } from "react";
 const Home = lazy(() => import("../pages/home/index"));
 const Employee=lazy(()=>import("../pages/employee/index"));
 const About = lazy(() => import("../pages/about/index"));
+const Vacancy =lazy(()=>import("../pages/vacancy/index"));
 const Catalog = lazy(() => import("../pages/catalog/index"));
 const ProductMore = lazy(() => import("../pages/product-more/index"));
 const News = lazy(() => import("../pages/news/index"));
@@ -65,6 +66,11 @@ export const RouterData = [
   },
   {
     id:11,
+    path:"/vacancy",
+    component:<Vacancy/>
+  },
+  {
+    id:12,
     path:"/*",
     component:<ErrorPage/>
   }

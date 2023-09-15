@@ -14,7 +14,7 @@ import { Dropdown, Space } from "antd";
 import { BigContainer } from "../../style-app";
 import { Button } from ".././common/button-common/index";
 
-const Header = () => {
+const Header = (props) => {
   const { t } = useTranslation();
 
   const [click, setClick] = useState(false);
@@ -45,7 +45,7 @@ const Header = () => {
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= props.scroll) {
       setColor(true);
     } else {
       setColor(false);

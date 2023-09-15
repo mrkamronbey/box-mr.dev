@@ -14,7 +14,7 @@ export const BigContainer = styled.div`
 `;
 export const GlobalStyle = createGlobalStyle`
 *{
-  font-family:'Roboto Slab','Arial',serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }

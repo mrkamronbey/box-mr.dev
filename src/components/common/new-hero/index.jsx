@@ -11,7 +11,7 @@ const NewHeroCommon = ({
   return (
     <>
       <div className={`${styles.hero_section} ${className}`}>
-        <Header />
+        <Header scroll={0} />
         <BigContainer>
           <Row className={styles.home_hero_row}>
             <Col
