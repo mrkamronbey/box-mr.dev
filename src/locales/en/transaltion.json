@@ -1,6 +1,6 @@
 {
   "Header": {
-    "0": "About us",
+    "0": "About company",
     "1": "Catalog",
     "2": "Services",
     "3": "Blog",
@@ -15,14 +15,14 @@
     }
   },
   "Home": {
-    "0": "Packaging excellence by Ravshan Yodik Your path to quality and innovation",
-    "1": "Ravshan Yodik Production - Your Path to Quality and Creativity",
+    "0": "Packaging products from Ravshan Yodik",
+    "1": "About company",
     "2": "Contact with us",
-    "3": "Explore Our Catalog: Ravshan Yodik's wide range of packaging solutions in Uzbekistan",
+    "3": "Catalog",
     "4": "Details, Quality, Passion: Products Categories",
-    "5": "Ravshan Yodik in Detail: Stories, Inspiration and Expert Opinions on Our Blog",
-    "6": "News & Updates: Be in the middle of the action with Ravshan Yodik",
-    "7": "Our services: Professional solutions from Ravshan Yodik for your needs",
+    "5": "Blog",
+    "6": "News",
+    "7": "Services",
     "Factory": {
       "0": "Custom box design:",
       "1": "Show off your uniqueness with our custom box designs. We create personalized graphics for each box that reflect your style and brand. Our experience in the production of paper products, such as clipped bags, paper tents and cardboard boxes, allows us to translate your ideas into quality and creative designs. Add a unique touch to your packaging with our custom graphics.",
@@ -127,7 +127,7 @@
     "4": "THERMORESISTANT PAPER",
     "5": "Corrugated products",
     "6": "Page",
-    "7": "About us",
+    "7": "About company",
     "8": "Services",
     "9": "Blog",
     "10": "News",

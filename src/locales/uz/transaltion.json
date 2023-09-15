@@ -1,6 +1,6 @@
 {
   "Header": {
-    "0": "Biz Haqimizda",
+    "0": "Kompaniya haqida",
     "1": "Katalog",
     "2": "Xizmatlar",
     "3": "Blog",
@@ -15,14 +15,14 @@
     }
   },
   "Home": {
-    "0": "Qadoqlashning mukammalligi  Ravshan Yodik Sizning sifat va innovatsiya sari yo'lingiz",
-    "1": "Ravshan Yodik Production - Sifat va Ijodga Yo'lingiz",
+    "0": "Ravshan Yodikdan mahsulot qadoqlash",
+    "1": "Kompaniya haqida",
     "2": "Biz bilan bog'lanish",
-    "3":"Katalogimizni oʻrganing: Oʻzbekistonda Ravshan Yodikning qadoqlash yechimlarining keng assortimenti",
+    "3":"Katalog",
     "4":"Tafsilotlar, sifat, ishtiyoq: Mahsulotlar toifalari",
-    "5":"Batafsil Ravshan Yodik: Blogimizdagi hikoyalar, ilhom va ekspert fikrlari",
-    "6":"Yangiliklar va yangilanishlar: Ravshan Yodik bilan aksiyaning o‘rtasida bo‘ling",
-    "7":"Bizning xizmatlar: Sizning ehtiyojlaringiz uchun Ravshan Yodikdan professional yechimlar",
+    "5":"Blog",
+    "6":"Vakansiya",
+    "7":"Xizmatlar",
     "Factory": {
       "0": "Maxsus quti dizayni:",
       "1": "Bizning maxsus quti dizaynlarimiz bilan o'zingizning noyobligingizni ko'rsating. Sizning uslubingiz va brendingizni aks ettiruvchi har bir quti uchun shaxsiylashtirilgan grafikalar yaratamiz. Qog'oz mahsulotlarini, masalan, qirqilgan sumkalar, qog'oz chodirlar va karton qutilar ishlab chiqarish bo'yicha tajribamiz sizning g'oyalaringizni sifatli va ijodiy dizaynga aylantirish imkonini beradi. Bizning maxsus grafikalarimiz yordamida o‘ramingizga o‘ziga xos tus qo‘shing.",
@@ -127,7 +127,7 @@
     "4": "TERMORISTANT QOG'OZ",
     "5": "Gofrirovka qilingan mahsulotlar",
     "6": "Sahifa",
-    "7": "Biz Haqimizda",
+    "7": "Kompaniya haqida",
     "8": "Xizmatlar",
     "9": "Blog",
     "10": "Yangiliklar",

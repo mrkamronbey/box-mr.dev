@@ -1,19 +1,14 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import {Button} from "../../common/button-common/index"
-import HeroCommon from "../../common/hero-common";
-import styles from './style.module.css'
+import { Button } from "../../common/button-common/index";
+import NewHeroCommon from "../../common/new-hero";
+import styles from "./style.module.css";
 
 const Hero = () => {
   const { t } = useTranslation();
   return (
     <>
-      <HeroCommon
-      className={styles.bg}
-        heroTitle={t("Home.7")}
-        isBtn={true}
-        heroBtn={<Button>{t("Home.2")}</Button>}
-      />
+      <NewHeroCommon className={styles.bg} heroTitle={t("Home.7")} />
     </>
   );
 };
