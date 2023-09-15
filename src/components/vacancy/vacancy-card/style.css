@@ -1,0 +1,149 @@
+.vacancy_section {
+  padding: 50px 0;
+}
+
+.vacancy_list {
+  margin: 0;
+  padding: 0;
+}
+
+.vacancy_list > li > h4 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.vacancy_list > li {
+  padding: 20px 0;
+  /* border-bottom: 2px solid #000; */
+}
+
+.vacansy_date {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.vacansy_date > span > i {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.vacansy_modal_wrapp {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacansy_modal_btn {
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  background-color: #0e9e2f !important;
+  color: #fff !important;
+  border: none !important;
+  height: 40px !important;
+}
+
+.vacansy_modal_btns {
+  width: 100% !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  background-color: #0e9e2f !important;
+  color: #fff !important;
+  border: none !important;
+  height: 40px !important;
+}
+
+.ant-modal-title {
+  text-align: center !important;
+  font-size: 22px !important;
+}
+
+.ant-modal-header {
+  background-color: transparent !important;
+}
+
+.vacancy_modal_header > p {
+  text-align: center;
+}
+
+.ant-modal-content {
+  background: #bdbdca !important;
+  padding: 15px !important;
+  border-radius: 20px !important;
+}
+
+.ant-modal-mask {
+  background: #0b0b0b !important;
+  opacity: 0.8 !important;
+}
+
+.vacancy_row_wrapp {
+  margin-top: 20px;
+}
+
+.vacancy_row {
+  margin: 0 !important;
+}
+
+.vacancy_col {
+  margin-bottom: 10px !important;
+}
+
+.vacancy_col > input {
+  padding: 8px !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  font-size: 12px;
+}
+
+.vacansy_form_p {
+  font-weight: bold;
+  margin: 0 0 10px 15px;
+}
+
+.ant-modal {
+  top: 50px !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  .vacancy_section {
+    padding: 50px 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .vacancy_col {
+    padding: 0 !important;
+  }
+
+  .ant-modal {
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100dvh;
+  }
+
+  .ant-modal-content {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+  }
+}

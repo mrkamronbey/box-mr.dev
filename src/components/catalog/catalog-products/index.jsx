@@ -23,7 +23,6 @@ export const CatalogProducts = () => {
 
   const productGetState = useSelector((state) => state.product.productGet?.data);
   const [productS, setProductS] = useState(productGetState);
-  console.log(productS)
   useEffect(() => {
     dispatch(CategoryGet())
   }, [])

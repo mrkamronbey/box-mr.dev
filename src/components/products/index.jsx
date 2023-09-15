@@ -8,44 +8,6 @@ import { useTranslation } from "react-i18next";
 import { ProductGet } from "../../redux/products/index";
 import { useDispatch, useSelector } from "react-redux";
 
-const products = [
-  {
-    id: "p1",
-    title: "БУМАГА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p2",
-    title: "Фанера",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p3",
-    title: "БУМАГА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p4",
-    title: "СТРЕЙЧ ПЛЕНКА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p5",
-    title: "БУМАГА",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-  {
-    id: "p6",
-    title: "ГОФРОПРОДУКЦИЯ",
-    text: "Превосходное качество и надежная защита в каждой бумажной упаковке.",
-    image: bumagaImg,
-  },
-];
 
 export const Products = () => {
   const { t } = useTranslation();

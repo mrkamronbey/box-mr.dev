@@ -13,7 +13,6 @@ const NewsCard = () => {
   };
   const dispatch = useDispatch();
   const newGetState = useSelector((state) => state.news.newsGet?.data);
-  console.log(newGetState);
 
   useEffect(() => {
     dispatch(NewsGet());

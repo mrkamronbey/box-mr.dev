@@ -21,7 +21,7 @@ export const ProductPut = createAsyncThunk(
   async ({ body, id }) => {
     return await axios
       .put(`${API_URL}/products/${id}`, body)
-      .then((response) => console.log(response.data));
+      .then((response) => response.data);
   }
 );
 

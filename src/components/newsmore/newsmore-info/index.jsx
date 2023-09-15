@@ -16,7 +16,6 @@ const NewsMoreInfo = () => {
   const dispatch = useDispatch()
   const newGetState = useSelector((state) => state.news.newsGet?.data)
   const filterNews = newGetState.filter(elem => elem.id == id)
-  console.log(filterNews)
 
   useEffect(() => {
     dispatch(NewsGet())

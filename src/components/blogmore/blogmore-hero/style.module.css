@@ -1,0 +1,33 @@
+.bg_blog {
+  background-image: url(../../../assets/news/bg-breadcrumb.jpg);
+  background-position: center 200% !important;
+  /* color: #000 !important; */
+}
+
+@media only screen and (max-width: 830px) {
+  .blog_hero_title {
+    font-size: 32px !important;
+    line-height: 51.2px !important;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .blog_hero_title {
+    font-size: 26px !important;
+    line-height: 31.2px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .blog_hero_title {
+    font-size: 22px !important;
+    line-height: 25.2px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .blog_hero_title {
+    font-size: 18px !important;
+    line-height: 25.2px !important;
+  }
+}

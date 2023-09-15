@@ -7,6 +7,7 @@ import Header from "../../header";
 const NewHeroCommon = ({
   heroTitle,
   className,
+  new_hero_title_class
 }) => {
   return (
     <>
@@ -21,7 +22,7 @@ const NewHeroCommon = ({
               sx={12}
               sm={12}
             >
-              <h2>{heroTitle}</h2>
+              <h2 className={new_hero_title_class}>{heroTitle}</h2>
             </Col>
           </Row>
         </BigContainer>

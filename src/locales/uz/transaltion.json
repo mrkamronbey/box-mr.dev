@@ -6,8 +6,8 @@
     "3": "Blog",
     "4": "Yangiliklar",
     "5": "Kontaktlar",
-    "6":"Vakansiya",
-    "7":"Hodimlar",
+    "6": "Vakansiya",
+    "7": "Hodimlar",
     "HeaderTop": {
       "0": "RU",
       "1": "EN",
@@ -18,11 +18,11 @@
     "0": "Ravshan Yodikdan mahsulot qadoqlash",
     "1": "Kompaniya haqida",
     "2": "Biz bilan bog'lanish",
-    "3":"Katalog",
-    "4":"Tafsilotlar, sifat, ishtiyoq: Mahsulotlar toifalari",
-    "5":"Blog",
-    "6":"Vakansiya",
-    "7":"Xizmatlar",
+    "3": "Katalog",
+    "4": "Tafsilotlar, sifat, ishtiyoq: Mahsulotlar toifalari",
+    "5": "Blog",
+    "6": "Vakansiya",
+    "7": "Xizmatlar",
     "Factory": {
       "0": "Maxsus quti dizayni:",
       "1": "Bizning maxsus quti dizaynlarimiz bilan o'zingizning noyobligingizni ko'rsating. Sizning uslubingiz va brendingizni aks ettiruvchi har bir quti uchun shaxsiylashtirilgan grafikalar yaratamiz. Qog'oz mahsulotlarini, masalan, qirqilgan sumkalar, qog'oz chodirlar va karton qutilar ishlab chiqarish bo'yicha tajribamiz sizning g'oyalaringizni sifatli va ijodiy dizaynga aylantirish imkonini beradi. Bizning maxsus grafikalarimiz yordamida o‘ramingizga o‘ziga xos tus qo‘shing.",
@@ -32,51 +32,51 @@
       "5": "Biz sizning qadoqlash ehtiyojlaringiz uchun strech plyonkalar va shrink plyonkalarning keng assortimentini taklif qilamiz. Kesilgan sumkalar, qog'oz sochiqlar va karton qutilar kabi qog'oz mahsulotlarining o'lchami va turidan qat'i nazar, bizning materiallarimiz ishonchli himoya va yaxlitlikni ta'minlaydi. Bizning quti grafik xizmatlarimiz bilan birgalikda biz qadoqlash uchun to'liq yechimni kafolatlaymiz."
     }
   },
-  "About":{
-    "0":"Bizning afzalliklarimiz",
-    "1":"SAMARADORLIK",
-    "2":"Biz qog'oz mahsulotlarini, shu jumladan kesilgan sumkalar, qog'oz chodirlar va kartonlarni ishlab chiqarishda yuqori samaradorlik bilan faxrlanamiz. Optimallashtirilgan ishlab chiqarish jarayoni va ilg'or texnologiyalardan foydalanish tufayli biz sifatni yo'qotmasdan buyurtmaning tez bajarilishini ta'minlaymiz.",
-    "3":"Intuitiv interfeys",
-    "4":"Bizning intuitiv buyurtma interfeysimiz bilan noyob qog'oz mahsulotlarini yarating. Qo‘shimcha murakkablik yo‘q. Logotiplar va grafiklarni sumkalar, chodirlar va qutilarga tez va oson qo‘shing. Real vaqt grafiklari yordamida mahsulotingiz qanday ko‘rinishini ko‘ring. Foydalanuvchilarga qulay interfeys buyurtma berish jarayonini oson va stresssiz ta’minlaydi.",
-    "5":"ISHONCHLILiK",
-    "6":"Ishonchlilik biz qilayotgan har bir ishning asosidir. Biz yuqori sifat va chidamlilikka e'tibor qaratgan holda, kesilgan qoplar, qog'oz qoplar va karton qutilar kabi qog'oz mahsulotlarini ishlab chiqarishga ixtisoslashganmiz. Bizning professionallar jamoasi har bir mahsulot ishonchlilikning eng yuqori standartlariga javob berishini ta'minlash uchun ishlab chiqarishning har bir bosqichini diqqat bilan kuzatib boradi.",
-    "7":"Raqobatbardosh narxlar",
-    "8":"Biz qog'oz mahsulotlari, qirqimli sumkalar, chodirlar va grafik karton qutilarga eng raqobatbardosh narxlarni taklif etamiz.Raqobatbardosh narxlarda yuqori sifatli mahsulotlarga ega bo'ling. Bizning ishlab chiqarishimiz samarali va iqtisodiy optimallashtirilgan. Biz sizning ehtiyojlaringizga javob beramiz va byudjetingizga mos keladigan moslashuvchan narxlarni taklif qilamiz. Siz nafaqat raqobatbardosh narxlarni, balki yuqori sifat va dizayn standartlariga javob beradigan qog'oz mahsulotlarini ham olasiz.",
-    "9":"Tajriba va tajriba",
-    "10":"Qog'oz mahsulotlari, qirqilgan qoplar, tanglay va karton qutilar ishlab chiqarish bo'yicha ko'p yillik tajribamiz bilan ishimizning sifati va professionalligiga amin bo'lishingiz mumkin.Bizning jamoamiz ishlab chiqarish va grafikani chuqur tushunadigan tajribali mutaxassislardan iborat. . Biz sizning talablaringizga javob beradigan mahsulotlarni qanday yaratishni bilamiz.",
-    "11":"Ekologik javobgarlik",
-    "12":"Biz sayyora haqida qayg'uramiz. Biz ekologik toza materiallardan qog'oz mahsulotlari, chodirlar va qutilar ishlab, atrof-muhitga salbiy ta'sirni kamaytirishga yordam beramiz.Bizning ishlab chiqarishimiz chiqindilarni kamaytirishga qaratilgan. Biz atrof-muhitga salbiy ta'sirni kamaytirib, qayta ishlash va utilizatsiya jarayonlarini qo'llab-quvvatlaymiz."
+  "About": {
+    "0": "Bizning afzalliklarimiz",
+    "1": "SAMARADORLIK",
+    "2": "Biz qog'oz mahsulotlarini, shu jumladan kesilgan sumkalar, qog'oz chodirlar va kartonlarni ishlab chiqarishda yuqori samaradorlik bilan faxrlanamiz. Optimallashtirilgan ishlab chiqarish jarayoni va ilg'or texnologiyalardan foydalanish tufayli biz sifatni yo'qotmasdan buyurtmaning tez bajarilishini ta'minlaymiz.",
+    "3": "Intuitiv interfeys",
+    "4": "Bizning intuitiv buyurtma interfeysimiz bilan noyob qog'oz mahsulotlarini yarating. Qo‘shimcha murakkablik yo‘q. Logotiplar va grafiklarni sumkalar, chodirlar va qutilarga tez va oson qo‘shing. Real vaqt grafiklari yordamida mahsulotingiz qanday ko‘rinishini ko‘ring. Foydalanuvchilarga qulay interfeys buyurtma berish jarayonini oson va stresssiz ta’minlaydi.",
+    "5": "ISHONCHLILiK",
+    "6": "Ishonchlilik biz qilayotgan har bir ishning asosidir. Biz yuqori sifat va chidamlilikka e'tibor qaratgan holda, kesilgan qoplar, qog'oz qoplar va karton qutilar kabi qog'oz mahsulotlarini ishlab chiqarishga ixtisoslashganmiz. Bizning professionallar jamoasi har bir mahsulot ishonchlilikning eng yuqori standartlariga javob berishini ta'minlash uchun ishlab chiqarishning har bir bosqichini diqqat bilan kuzatib boradi.",
+    "7": "Raqobatbardosh narxlar",
+    "8": "Biz qog'oz mahsulotlari, qirqimli sumkalar, chodirlar va grafik karton qutilarga eng raqobatbardosh narxlarni taklif etamiz.Raqobatbardosh narxlarda yuqori sifatli mahsulotlarga ega bo'ling. Bizning ishlab chiqarishimiz samarali va iqtisodiy optimallashtirilgan. Biz sizning ehtiyojlaringizga javob beramiz va byudjetingizga mos keladigan moslashuvchan narxlarni taklif qilamiz. Siz nafaqat raqobatbardosh narxlarni, balki yuqori sifat va dizayn standartlariga javob beradigan qog'oz mahsulotlarini ham olasiz.",
+    "9": "Tajriba va tajriba",
+    "10": "Qog'oz mahsulotlari, qirqilgan qoplar, tanglay va karton qutilar ishlab chiqarish bo'yicha ko'p yillik tajribamiz bilan ishimizning sifati va professionalligiga amin bo'lishingiz mumkin.Bizning jamoamiz ishlab chiqarish va grafikani chuqur tushunadigan tajribali mutaxassislardan iborat. . Biz sizning talablaringizga javob beradigan mahsulotlarni qanday yaratishni bilamiz.",
+    "11": "Ekologik javobgarlik",
+    "12": "Biz sayyora haqida qayg'uramiz. Biz ekologik toza materiallardan qog'oz mahsulotlari, chodirlar va qutilar ishlab, atrof-muhitga salbiy ta'sirni kamaytirishga yordam beramiz.Bizning ishlab chiqarishimiz chiqindilarni kamaytirishga qaratilgan. Biz atrof-muhitga salbiy ta'sirni kamaytirib, qayta ishlash va utilizatsiya jarayonlarini qo'llab-quvvatlaymiz."
   },
   "Employees": {
     "0": "Bizning xodimlarimiz",
-    "1":"Ravshanov Sherali",
-    "2":"menejer",
-    "3":"Tog'aev Xasan",
-    "4":"Salomov O'tkir",
-    "5":"Aloev Jo`rabek",
-    "6":"Gorbacheva Dinara",
-    "7":"savdo bo'limi boshlig'i"
+    "1": "Ravshanov Sherali",
+    "2": "menejer",
+    "3": "Tog'aev Xasan",
+    "4": "Salomov O'tkir",
+    "5": "Aloev Jo`rabek",
+    "6": "Gorbacheva Dinara",
+    "7": "savdo bo'limi boshlig'i"
   },
   "Details": {
     "0": "Biz noyob grafikaga ega yuqori sifatli qog'oz mahsulotlarini ishlab chiqarishga ixtisoslashganmiz. Bizning assortimentimizga kesilgan sumkalar, qog'oz chodirlar va karton qutilar kiradi. Shuningdek, biz sizning qadoqlashingizga o'ziga xos va zamonaviy ko'rinish berish uchun ijodiy quti dizayn xizmatlarini taklif etamiz.",
     "1": "asosiy faoliyat"
   },
-  "Services":{
-    "0":"Dizayn va konsalting:",
-    "1":"Dizayn va konsalting xizmatlarimiz sizning g'oyalaringizni noyob qog'oz mahsulotlariga aylantirish uchun mo'ljallangan. Biz har bir mijozning o'z xohish-istaklari va vizual ko'rinishlariga ega ekanligini tushunamiz, shuning uchun bizning jamoamiz sizning talablaringiz va talablaringizga javob beradigan dizaynni ishlab chiqishda yordam berishga tayyor.",
-    "2":"Shaxsiy buyurtmalar",
-    "3":"Bizning buyurtma asosida tayyorlangan xizmatlarimiz sizga o'zingizning xohishingiz va ehtiyojlaringizga to'liq moslashtirilgan noyob va moslashtirilgan qog'oz mahsulotlarini yaratish imkoniyatini beradi. Biz sizning tasavvuringizni haqiqatga aylantirishga va siz yoki tadbiringiz uchun mukammal bo'ladigan mahsulotlarni yaratishga tayyormiz.",
-    "4":"Biznes uchun xizmatlar",
-    "5":"Bizning biznes xizmatlarimiz sizning brendingiz, mahsulotlaringiz va korporativ identifikatoringizni yaxshilaydigan yuqori sifatli va maxsus ishlab chiqilgan qog'oz mahsulotlarini taqdim etishga qaratilgan. Biz sizning talablaringizga javob beradigan mahsulotlarni yaratish va auditoriyangiz e'tiborini jalb qilish uchun siz bilan ishlashga tayyormiz."
+  "Services": {
+    "0": "Dizayn va konsalting:",
+    "1": "Dizayn va konsalting xizmatlarimiz sizning g'oyalaringizni noyob qog'oz mahsulotlariga aylantirish uchun mo'ljallangan. Biz har bir mijozning o'z xohish-istaklari va vizual ko'rinishlariga ega ekanligini tushunamiz, shuning uchun bizning jamoamiz sizning talablaringiz va talablaringizga javob beradigan dizaynni ishlab chiqishda yordam berishga tayyor.",
+    "2": "Shaxsiy buyurtmalar",
+    "3": "Bizning buyurtma asosida tayyorlangan xizmatlarimiz sizga o'zingizning xohishingiz va ehtiyojlaringizga to'liq moslashtirilgan noyob va moslashtirilgan qog'oz mahsulotlarini yaratish imkoniyatini beradi. Biz sizning tasavvuringizni haqiqatga aylantirishga va siz yoki tadbiringiz uchun mukammal bo'ladigan mahsulotlarni yaratishga tayyormiz.",
+    "4": "Biznes uchun xizmatlar",
+    "5": "Bizning biznes xizmatlarimiz sizning brendingiz, mahsulotlaringiz va korporativ identifikatoringizni yaxshilaydigan yuqori sifatli va maxsus ishlab chiqilgan qog'oz mahsulotlarini taqdim etishga qaratilgan. Biz sizning talablaringizga javob beradigan mahsulotlarni yaratish va auditoriyangiz e'tiborini jalb qilish uchun siz bilan ishlashga tayyormiz."
   },
   "Comments": {
     "0": "Mijozlarning sharhlari",
-    "1":"Sobirov Anvar",
-    "2":"Men Ravshan Yodik Production bilan anchadan beri hamkorlik qilib kelaman va ularning mahsulotlaridan to‘liq mamnunman. Ularning gofrokarton, streç plyonka, shrink plyonka va alyuminiy folga assortimenti mening ehtiyojlarim uchun juda mos keladi. Mahsulotlarining sifati va ishonchliligi har doim yuqori darajada.",
-    "3":"kobil bakhtiyarovich",
-    "4":"Menga ularning professionalligi va mijozlarga ehtiyotkorlik bilan munosabati yoqadi. Ravshan Yodik Production xodimlari har doim mos material tanlashda yordam berishga va har qanday savollarga javob berishga tayyor. Buyurtmani tezkor qayta ishlash va tezkor yetkazib berish kompaniya bilan hamkorlikni imkon qadar qulay qiladi.",
-    "5":"Rustam Karimov",
-    "6":"Qadoqlash materiallarini ishonchli yetkazib beruvchini qidirayotgan har bir kishiga Ravshan Yodik Production kompaniyasini tavsiya qilaman. Ularning yuqori sifatli mahsulotlari va ishga professional yondashuvi ularni biznesdagi ajralmas hamkorga aylantiradi."
+    "1": "Sobirov Anvar",
+    "2": "Men Ravshan Yodik Production bilan anchadan beri hamkorlik qilib kelaman va ularning mahsulotlaridan to‘liq mamnunman. Ularning gofrokarton, streç plyonka, shrink plyonka va alyuminiy folga assortimenti mening ehtiyojlarim uchun juda mos keladi. Mahsulotlarining sifati va ishonchliligi har doim yuqori darajada.",
+    "3": "kobil bakhtiyarovich",
+    "4": "Menga ularning professionalligi va mijozlarga ehtiyotkorlik bilan munosabati yoqadi. Ravshan Yodik Production xodimlari har doim mos material tanlashda yordam berishga va har qanday savollarga javob berishga tayyor. Buyurtmani tezkor qayta ishlash va tezkor yetkazib berish kompaniya bilan hamkorlikni imkon qadar qulay qiladi.",
+    "5": "Rustam Karimov",
+    "6": "Qadoqlash materiallarini ishonchli yetkazib beruvchini qidirayotgan har bir kishiga Ravshan Yodik Production kompaniyasini tavsiya qilaman. Ularning yuqori sifatli mahsulotlari va ishga professional yondashuvi ularni biznesdagi ajralmas hamkorga aylantiradi."
   },
   "Products": {
     "0": "Mahsulot haqida batafsil",
@@ -107,7 +107,7 @@
     "9": "Biz bilan bog'lanish",
     "10": "Savolingizning mohiyatini yozing",
     "11": "F.I.Sh.",
-    "12":"Jo`natish"
+    "12": "Jo`natish"
   },
   "Contact": {
     "0": "Aloqa ma'lumotlari",
@@ -137,20 +137,43 @@
     "14": "O'zbekiston Respublikasi",
     "15": "1000005 Toshkent",
     "16": "Yangixayot tumani-Janubiy sanoat zonasi 154",
-    "17":"O'zbekiston Respublikasi 1000005 Toshkent Yangixayot tumani-Janubiy sanoat zonasi 154",
-    "18":"pochta",
-    "19":"Dush-Jum 9-00 - 18-00, tanaffus 13-00 - 14-00 Shanba-Yakshanba dam olish kuni."
+    "17": "O'zbekiston Respublikasi 1000005 Toshkent Yangixayot tumani-Janubiy sanoat zonasi 154",
+    "18": "pochta",
+    "19": "Dush-Jum 9-00 - 18-00, tanaffus 13-00 - 14-00 Shanba-Yakshanba dam olish kuni."
   },
-  "Modal":{
-    "0":"Iltimos, vazn yoki uzunlikni tanlang",
-    "1":"iltimos, anketani to'liq to'ldiring",
-    "2":"Filmlarni hisoblash",
-    "3":"Film uzunligini hisoblash uchun ma'lumotlarni kiriting",
-    "4":"Og'irlik",
-    "5":"Uzunlik",
-    "6":"Kengligi",
-    "7":"Qalinligi",
-    "8":"Tozalash",
-    "9":"Hisoblash"
+  "Modal": {
+    "0": "Iltimos, vazn yoki uzunlikni tanlang",
+    "1": "iltimos, anketani to'liq to'ldiring",
+    "2": "Filmlarni hisoblash",
+    "3": "Film uzunligini hisoblash uchun ma'lumotlarni kiriting",
+    "4": "Og'irlik",
+    "5": "Uzunlik",
+    "6": "Kengligi",
+    "7": "Qalinligi",
+    "8": "Tozalash",
+    "9": "Hisoblash"
+  },
+
+  "Vacansy": {
+    "0": "Rezyumeni to'ldiring",
+    "1": "shaklni to'ldiring",
+    "2": "Rezyumeni yuboring, biz siz bilan albatta bog'lanamiz",
+    "3": "To'liq ism",
+    "4": "Tug'ilgan yili",
+    "5": "Yashash joyi",
+    "6": "Oilaviy ahvoli",
+    "7": "Telefon",
+    "8": "Ta'lim",
+    "9": "Ish tajribasi (oxirgi uchtasini ko'rsating)",
+    "10": "1-o'rin",
+    "11": "2-o'rin",
+    "12": "3-o'rin",
+    "13": "O'zbek/rus tillarini bilish",
+    "14": "Savol/Izoh",
+    "15": "Yuborish"
+  },
+
+  "BlogMore": {
+    "0": "Nashr qilingan sana:"
   }
 }

@@ -5,45 +5,7 @@ import { BlogCard } from "../blog_card";
 import { BlogGet } from "../../../redux/blog";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-
-const blogs = [
-  {
-    id: "p1",
-    link: "https://www.youtube.com/embed/dufPA_v48YM",
-    title: "Выставка «Металлообработка- 2019. Оборудование, приборы ..",
-    text: "Более чем полувековые, традиции создания, изготовления и внедрения прецизионных ..",
-  },
-  {
-    id: "p2",
-    link: "https://www.youtube.com/embed/dufPA_v48YM",
-    title: "Выставка «Металлообработка- 2019. Оборудование, приборы ..",
-    text: "Более чем полувековые, традиции создания, изготовления и внедрения прецизионных ..",
-  },
-  {
-    id: "p3",
-    link: "https://www.youtube.com/embed/dufPA_v48YM",
-    title: "Выставка «Металлообработка- 2019. Оборудование, приборы ..",
-    text: "Более чем полувековые, традиции создания, изготовления и внедрения прецизионных ..",
-  },
-  {
-    id: "p4",
-    link: "https://www.youtube.com/embed/dufPA_v48YM",
-    title: "Выставка «Металлообработка- 2019. Оборудование, приборы ..",
-    text: "Более чем полувековые, традиции создания, изготовления и внедрения прецизионных ..",
-  },
-  {
-    id: "p5",
-    link: "https://www.youtube.com/embed/dufPA_v48YM",
-    title: "Выставка «Металлообработка- 2019. Оборудование, приборы ..",
-    text: "Более чем полувековые, традиции создания, изготовления и внедрения прецизионных ..",
-  },
-  {
-    id: "p6",
-    link: "https://www.youtube.com/embed/dufPA_v48YM",
-    title: "Выставка «Металлообработка- 2019. Оборудование, приборы ..",
-    text: "Более чем полувековые, традиции создания, изготовления и внедрения прецизионных ..",
-  },
-];
+import { NavLink } from "react-router-dom";
 
 export const Blog = () => {
   const dispatch = useDispatch()
@@ -61,28 +23,48 @@ export const Blog = () => {
         <Row className={styles.blog_row}>
           {bloggetState.map((blog) => (
             <Col lg={4} md={6} sx={6} sm={12} className={styles.blog_col}>
-              <BlogCard
-                key={blog.id}
-                link={blog.link}
-                title={
-                  LangVal() == "ru"
-                    ? blog.title_ru
-                    : LangVal() == "uz"
-                      ? blog.title_uz
-                      : LangVal() == "en"
-                        ? blog.title_en
-                        : blog.title_ru
-                }
-                text={
-                  LangVal() == "ru"
-                  ? `${blog.description_ru.slice(0,60)}...`
-                  : LangVal() == "uz"
-                    ? `${blog.description_uz.slice(0,60)}...`
-                    : LangVal() == "en"
-                      ? `${blog.description_en.slice(0,60)}...`
-                      : `${blog.description_ru.slice(0,60)}...`
-                }
-              />
+              <NavLink to={`/blog-more/${blog.id}`}>
+                <BlogCard
+                  key={blog.id}
+                  link={blog.link}
+                  title={
+                    LangVal() == "ru"
+                      ? blog.title_ru
+                      : LangVal() == "uz"
+                        ? blog.title_uz
+                        : LangVal() == "en"
+                          ? blog.title_en
+                          : blog.title_ru
+                  }
+                  text={
+                    LangVal() == "ru" ? (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: `${blog.description_ru.slice(0, 60)}...`,
+                        }}
+                      />
+                    ) : LangVal() == "uz" ? (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: `${blog.description_uz.slice(0, 60)}...`,
+                        }}
+                      />
+                    ) : LangVal() == "en" ? (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: `${blog.description_en.slice(0, 60)}...`,
+                        }}
+                      />
+                    ) : (
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: `${blog.description_ru.slice(0, 60)}...`,
+                        }}
+                      />
+                    )
+                  }
+                />
+              </NavLink>
             </Col>
           ))}
         </Row>

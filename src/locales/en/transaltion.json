@@ -152,5 +152,28 @@
     "7": "Thickness",
     "8": "Reset",
     "9": "Calculate"
+  },
+
+  "Vacansy": {
+    "0": "Fill out your resume",
+    "1": "Fill out the form",
+    "2": "Send your resume and we will definitely contact you",
+    "3": "Full name",
+    "4": "Year of birth",
+    "5": "Place of residence",
+    "6": "Marital status",
+    "7": "Phone",
+    "8": "Education",
+    "9": "Work experience (indicate the last three)",
+    "10": "1st place",
+    "11": "2nd place",
+    "12": "3rd place",
+    "13": "Knowledge of Uzb / Russian languages",
+    "14": "Question/Comment",
+    "15": "Send"
+  },
+  
+  "BlogMore": {
+    "0": "Publication date:"
   }
 }
