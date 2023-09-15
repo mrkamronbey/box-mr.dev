@@ -14,7 +14,7 @@ export const BigContainer = styled.div`
 `;
 export const GlobalStyle = createGlobalStyle`
 *{
-  font-family: 'Inter', sans-serif;
+  font-family:'Roboto Slab','Arial',serif;
   margin: 0;
   padding: 0;
 }
@@ -29,6 +29,12 @@ export const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     background: #ffffff;
     box-sizing: border-box;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   /* ::-webkit-scrollbar {

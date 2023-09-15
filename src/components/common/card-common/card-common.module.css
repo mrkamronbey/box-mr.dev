@@ -1,23 +1,33 @@
 .card {
   background-color: #f8f8f8;
-  max-width: 390px;
+  max-width: 400px;
+  height: 500px;
   width: 100%;
-  padding: 20px 15px;
   margin-bottom: 40px;
   border-radius: 5px;
   clip-path: polygon(0 0, calc(100% - 70px) 0, 100% 70px, 100% 100%, 0 100%);
 }
 
+.card_content{
+  position: relative;
+  padding: 20px 15px;
+  height: 240px;
+}
 
+.card_content>a{
+  position: absolute;
+  left: 15px;
+  bottom: 60px;
+}
 
-.card > h3 {
+.card_content > h3 {
   font-size: 24px;
   line-height: 33.6px;
 }
 
-.card > p {
+.card_content > p {
   margin-top: 5px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   max-width: 337px;
   line-height: 25.6px;
 }
@@ -26,6 +36,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 260px;
+}
+
+.imgbox >img{
+  width: 95%;
+  height: 95%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -38,7 +54,7 @@
     justify-content: center;
   }
 
-  .card > p {
+  .card_content > p {
     text-align: center;
     max-width: 500px;
   }

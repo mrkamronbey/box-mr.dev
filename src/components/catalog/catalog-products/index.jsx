@@ -2,7 +2,6 @@ import { BigContainer } from "../../../style-app";
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import styles from "./catalog-products.module.css";
-import bumagaImg from "../../../assets/products/bumaga-png.png";
 import "./style.css";
 import { useEffect, useState } from "react";
 import { Col, Row } from "react-grid-system";
@@ -89,21 +88,21 @@ export const CatalogProducts = () => {
                   <Card
                     title={
                       LangVal() == "ru"
-                        ? product.title_ru
+                        ? `${product.title_ru.slice(0, 30)}...`
                         : LangVal() == "uz"
-                          ? product.title_uz
-                          : LangVal() == "en"
-                            ? product.title_en
-                            : product.title_ru
+                        ? `${product.title_uz.slice(0, 30)}...`
+                        : LangVal() == "en"
+                        ? `${product.title_en.slice(0, 30)}...`
+                        : `${product.title_ru.slice(0, 30)}...`
                     }
                     text={
                       LangVal() == "ru"
-                        ? `${product.description_ru}`
+                        ? `${product.description_ru.slice(0,50)}...`
                         : LangVal() == "uz"
-                          ? `${product.description_uz}`
+                          ? `${product.description_uz.slice(0,50)}...`
                           : LangVal() == "en"
-                            ? `${product.description_en}`
-                            : `${product.description_ru}`
+                            ? `${product.description_en.slice(0,50)}...`
+                            : `${product.description_ru.slice(0,50)}...`
                     }
                     image={product.image}
                     id={product.id}

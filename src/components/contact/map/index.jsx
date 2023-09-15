@@ -117,7 +117,7 @@ const Map = () => {
                                         onChange={(e) => setNumber(e.currentTarget.value)}
                                         id="phone"
                                         name="phone"
-                                        placeholder="+ 7 999 199 19 19"
+                                        placeholder="+998"
                                     />
                                 </label>
                                 <label className={styles.form_label} htmlFor="email">

@@ -4,7 +4,7 @@ import { Form } from "../form";
 import { Partner } from "../partners";
 import { Details } from "../details";
 import { Comments } from "../comments";
-import { Employees } from "./employees";
+// import { Employees } from "./employees";
 import AboutCard from "./about-card";
 
 const AboutComponet = () => {
@@ -12,7 +12,7 @@ const AboutComponet = () => {
     <>
     <Hero/>
     <Details isNone={true}/>
-    <Employees/>
+    {/* <Employees/> */}
     <AboutCard/>
     <Partner/>
     <Comments/>

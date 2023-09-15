@@ -8,6 +8,13 @@
   justify-content: center !important;
 }
 
+.product_factory_slider_wrapp{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .product_factory_slider_wrapp > .slick-slider > .slick-list {
   padding: 20px 0 !important;
 }

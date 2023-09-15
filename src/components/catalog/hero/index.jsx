@@ -12,6 +12,7 @@ const Hero = () => {
       className={styles.bg}
         heroTitle={t("Home.3")}
         isBtn={true}
+        // display={true}
         heroBtn={<Button>{t("Home.2")}</Button>}
       />
     </>

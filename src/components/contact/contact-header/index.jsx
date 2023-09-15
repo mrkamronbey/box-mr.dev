@@ -58,13 +58,13 @@ const ContactHeader = () => {
                 sx={4}
                 sm={4}
               >
-                <a href="tel:73422500888">
+                <a href="tel:+998931304144">
                   <HiPhone className={styles.icon} />
-                  <span className={styles.span}>+7 (342) 250-08-88</span>
+                  <span className={styles.span}>+(93) 130 -41 - 44</span>
                 </a>
-                <a href="mailto:info@grdok.ru">
+                <a href="mailto:m.buriev@yodik.uz">
                   <MdMail className={styles.icon} />
-                  <span className={styles.span}>info@grdok.ru.</span>
+                  <span className={styles.span}>m.buriev@yodik.uz</span>
                 </a>
                 <LanguageHeader />
               </Col>

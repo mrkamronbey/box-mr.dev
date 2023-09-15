@@ -6,10 +6,28 @@
     height: 685px !important;
 }
 
+.slider-left>div{
+    border-color: #00AB09 !important;
+}
+
+.slider-right>div{
+    border-color: #00AB09 !important;
+}
+
 .slider-left>div>i{
     color: #000000;
 }
 
 .slider-right>div>i{
     color: #000000;
+}
+
+@media only screen and (max-width: 600px){
+    .slider-left{
+        display: none !important;
+    }
+
+    .slider-right{
+        display: none !important;
+    }
 }

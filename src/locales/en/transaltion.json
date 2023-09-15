@@ -6,6 +6,8 @@
     "3": "Blog",
     "4": "News",
     "5": "Contacts",
+    "6":"Vacancy",
+    "7":"Employees",
     "HeaderTop": {
       "0": "RU",
       "1": "EN",
@@ -13,14 +15,14 @@
     }
   },
   "Home": {
-    "0": "Ravshan Yodik Production- YOUR PARTNER FOR HIGH QUALITY BOXES",
+    "0": "Packaging excellence by Ravshan Yodik Your path to quality and innovation",
     "1": "Ravshan Yodik Production - Your Path to Quality and Creativity",
     "2": "Contact with us",
-    "3": "Exquisite Paper Collections: Product Category Announcement",
+    "3": "Explore Our Catalog: Ravshan Yodik's wide range of packaging solutions in Uzbekistan",
     "4": "Details, Quality, Passion: Products Categories",
-    "5": "Paper Discoveries: Inspiration and Insights in the Manufacturing World",
-    "6": "News and Events: Always up to date with the latest developments in the world of paper",
-    "7": "Our Paper Services: Creating Quality and Personality",
+    "5": "Ravshan Yodik in Detail: Stories, Inspiration and Expert Opinions on Our Blog",
+    "6": "News & Updates: Be in the middle of the action with Ravshan Yodik",
+    "7": "Our services: Professional solutions from Ravshan Yodik for your needs",
     "Factory": {
       "0": "Custom box design:",
       "1": "Show off your uniqueness with our custom box designs. We create personalized graphics for each box that reflect your style and brand. Our experience in the production of paper products, such as clipped bags, paper tents and cardboard boxes, allows us to translate your ideas into quality and creative designs. Add a unique touch to your packaging with our custom graphics.",
@@ -70,11 +72,11 @@
   "Comments": {
     "0": "Customer Reviews",
     "1": "Sobirov Anvar",
-    "2": "``Ravshan Yodik Production exceeded our expectations with their exceptional box production services. The attention to detail and high quality craftsmanship really impressed us. We highly recommend them for any packaging needs.``- Sarah M., retail business owner",
+    "2": "I have been cooperating with Ravshan Yodik Production for a long time and remain completely satisfied with their products. Their range of corrugated board, stretch film, shrink film and aluminum foil is perfect for my needs. The quality and reliability of their products is always top notch.",
     "3": "kobil bakhtiyarovich",
-    "4": "``Working with Ravshan Yodik Production was easy and enjoyable. Their team was responsive, professional and they delivered our custom box orders with our logo to perfection. The packaging added a touch of elegance to our products. We are delighted with the result!`` - John D., e-commerce entrepreneur",
+    "4": "I like their professionalism and attentive attitude towards clients. Ravshan Yodik Production staff is always ready to help with the selection of suitable material and answer any questions. Fast order processing and prompt delivery make cooperation with the company as comfortable as possible.",
     "5": "Rustam Karimov",
-    "6": "``We rely entirely on Ravshan Yodik Production for our specialized packaging needs and they never disappoint. Their expertise in making electronics boxes is truly impressive. With their strong and reliable packaging solutions, our products are always well protected during shipping.`` - Anna L., Technology Producer"
+    "6": "I recommend Ravshan Yodik Production to anyone who is looking for a reliable supplier of packaging materials. Their high quality products and professional approach to work make them an indispensable partner in business."
   },
   "Products": {
     "0": "More about the product",
@@ -100,11 +102,12 @@
     "4": "The contact person",
     "5": "Telephone",
     "6": "Email",
-    "7": "Commentary",
+    "7": "Message",
     "8": "By clicking the button I agree to the privacy policy",
     "9": "Contact with us",
     "10": "Write the essence of your question",
-    "11": "F.I.O."
+    "11": "Full Name",
+    "12":"Submit"
   },
   "Contact": {
     "0": "Contact information",
@@ -133,7 +136,10 @@
     "13": "Address",
     "14": "Republic of Uzbekistan",
     "15": "1000005 Tashkent",
-    "16": "Yangihayot district b South industrial zone 154"
+    "16": "Yangihayot district - South industrial zone, 154",
+    "17":"Republic of Uzbekistan 1000005 Tashkent Yangihayot district - South industrial zone, 154",
+    "18":"mail",
+    "19":"Mon-Fri from 9-00 - 18-00, break from 13-00 - 14-00 Sat-Sun day off."
   },
   "Modal": {
     "0": "Please select a weight or length",

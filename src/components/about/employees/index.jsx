@@ -8,7 +8,7 @@ import employeeImg1 from '../../../assets/employes/sherali-img.jpg';
 import employeeImg2 from '../../../assets/employes/xasan-img.jpg';
 import employeeImg3 from '../../../assets/employes/otkir-img.jpg';
 import employeeImg4 from '../../../assets/employes/jurabek-img.jpg';
-import employeeImg5 from '../../../assets/employes/dinara-img.jpg';
+import employeeImg5 from '../../../assets/employes/dinara-img.png';
 
 export const Employees = () => {
     const {t} =useTranslation()

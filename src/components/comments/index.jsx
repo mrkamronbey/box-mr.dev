@@ -32,7 +32,7 @@ export const Comments = () => {
     centerPadding: "10px",
     slidesToShow: 3,
     autoplay: true,
-    speed: 1000,
+    speed: 2000,
     autoplaySpeed: 1000,
     rows: 1,
     slidesPerRow: 1,

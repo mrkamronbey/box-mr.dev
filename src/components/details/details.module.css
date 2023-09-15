@@ -9,12 +9,14 @@
 
 .details_title {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 84px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin-bottom: 70px;
+  text-transform: capitalize;
   color: #494b44;
 }
 
@@ -75,6 +77,7 @@
 
   .details_imgdiv {
     order: -1;
+    margin-bottom: 15px;
   }
 
   .details_bottom {

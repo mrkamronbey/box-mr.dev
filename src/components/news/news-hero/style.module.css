@@ -1,0 +1,10 @@
+.bg{
+    background-image: url(../../../assets/6.png);
+    background-position: center center;
+}
+
+@media only screen and (max-width: 450px){
+    .bg{
+        background-position: center left !important;
+    }
+}

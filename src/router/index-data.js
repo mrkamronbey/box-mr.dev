@@ -1,6 +1,7 @@
 import { lazy } from "react";
 
 const Home = lazy(() => import("../pages/home/index"));
+const Employee=lazy(()=>import("../pages/employee/index"));
 const About = lazy(() => import("../pages/about/index"));
 const Catalog = lazy(() => import("../pages/catalog/index"));
 const ProductMore = lazy(() => import("../pages/product-more/index"));
@@ -59,6 +60,11 @@ export const RouterData = [
   },
   {
     id:10,
+    path:"/employee",
+    component:<Employee/>
+  },
+  {
+    id:11,
     path:"/*",
     component:<ErrorPage/>
   }

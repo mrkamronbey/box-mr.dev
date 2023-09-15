@@ -48,7 +48,6 @@ const blogs = [
 export const Blog = () => {
   const dispatch = useDispatch()
   const bloggetState = useSelector((state) => state.blog.BlogGets?.data)
-  console.log(bloggetState)
 
   useEffect(() => {
     dispatch(BlogGet())
@@ -76,12 +75,12 @@ export const Blog = () => {
                 }
                 text={
                   LangVal() == "ru"
-                    ? blog.description_ru
-                    : LangVal() == "uz"
-                      ? blog.description_uz
-                      : LangVal() == "en"
-                        ? blog.description_en
-                        : blog.description_ru
+                  ? `${blog.description_ru.slice(0,60)}...`
+                  : LangVal() == "uz"
+                    ? `${blog.description_uz.slice(0,60)}...`
+                    : LangVal() == "en"
+                      ? `${blog.description_en.slice(0,60)}...`
+                      : `${blog.description_ru.slice(0,60)}...`
                 }
               />
             </Col>

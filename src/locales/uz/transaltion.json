@@ -6,6 +6,8 @@
     "3": "Blog",
     "4": "Yangiliklar",
     "5": "Kontaktlar",
+    "6":"Vakansiya",
+    "7":"Hodimlar",
     "HeaderTop": {
       "0": "RU",
       "1": "EN",
@@ -13,14 +15,14 @@
     }
   },
   "Home": {
-    "0": "Ravshan Yodik Production - Sifatli qutilar ishlab chiqarishdagi hamkoringiz",
+    "0": "Qadoqlashning mukammalligi  Ravshan Yodik Sizning sifat va innovatsiya sari yo'lingiz",
     "1": "Ravshan Yodik Production - Sifat va Ijodga Yo'lingiz",
     "2": "Biz bilan bog'lanish",
-    "3":"Ajoyib qog'oz to'plamlari: mahsulot toifasi haqida e'lon",
+    "3":"Katalogimizni oʻrganing: Oʻzbekistonda Ravshan Yodikning qadoqlash yechimlarining keng assortimenti",
     "4":"Tafsilotlar, sifat, ishtiyoq: Mahsulotlar toifalari",
-    "5":"Qog'oz kashfiyoti: ishlab chiqarish dunyosidagi ilhom va tushunchalar",
-    "6":"Yangiliklar va voqealar: Qog'oz olamidagi so'nggi o'zgarishlardan doimo xabardor bo'ling",
-    "7":"Bizning qog'oz xizmatlari: Sifat va shaxsiyat yaratish",
+    "5":"Batafsil Ravshan Yodik: Blogimizdagi hikoyalar, ilhom va ekspert fikrlari",
+    "6":"Yangiliklar va yangilanishlar: Ravshan Yodik bilan aksiyaning o‘rtasida bo‘ling",
+    "7":"Bizning xizmatlar: Sizning ehtiyojlaringiz uchun Ravshan Yodikdan professional yechimlar",
     "Factory": {
       "0": "Maxsus quti dizayni:",
       "1": "Bizning maxsus quti dizaynlarimiz bilan o'zingizning noyobligingizni ko'rsating. Sizning uslubingiz va brendingizni aks ettiruvchi har bir quti uchun shaxsiylashtirilgan grafikalar yaratamiz. Qog'oz mahsulotlarini, masalan, qirqilgan sumkalar, qog'oz chodirlar va karton qutilar ishlab chiqarish bo'yicha tajribamiz sizning g'oyalaringizni sifatli va ijodiy dizaynga aylantirish imkonini beradi. Bizning maxsus grafikalarimiz yordamida o‘ramingizga o‘ziga xos tus qo‘shing.",
@@ -70,11 +72,11 @@
   "Comments": {
     "0": "Mijozlarning sharhlari",
     "1":"Sobirov Anvar",
-    "2":"``Ravshan Yodik Production o'zining ajoyib quti ishlab chiqarish xizmatlari bilan kutganimizdan oshib ketdi. Tafsilotlarga bo'lgan e'tibor va yuqori sifatli mahorat bizni hayratda qoldirdi. Biz ularni har qanday qadoqlash ehtiyojlari uchun tavsiya qilamiz.`` - Sara M., chakana savdo egasi",
+    "2":"Men Ravshan Yodik Production bilan anchadan beri hamkorlik qilib kelaman va ularning mahsulotlaridan to‘liq mamnunman. Ularning gofrokarton, streç plyonka, shrink plyonka va alyuminiy folga assortimenti mening ehtiyojlarim uchun juda mos keladi. Mahsulotlarining sifati va ishonchliligi har doim yuqori darajada.",
     "3":"kobil bakhtiyarovich",
-    "4":"``Ravshan Yodik Production bilan ishlash oson va yoqimli edi. Ularning jamoasi sezgir, professional edi va ular bizning logotipimiz bilan buyurtma qilingan quti buyurtmalarini mukammal darajada yetkazib berishdi. Qadoqlash mahsulotimizga nafislik qo'shdi. Biz natijadan xursandmiz!`` - Jon D., elektron tijorat tadbirkori",
+    "4":"Menga ularning professionalligi va mijozlarga ehtiyotkorlik bilan munosabati yoqadi. Ravshan Yodik Production xodimlari har doim mos material tanlashda yordam berishga va har qanday savollarga javob berishga tayyor. Buyurtmani tezkor qayta ishlash va tezkor yetkazib berish kompaniya bilan hamkorlikni imkon qadar qulay qiladi.",
     "5":"Rustam Karimov",
-    "6":"``Ixtisoslashgan qadoqlash ehtiyojlarimiz uchun biz butunlay Ravshan Yodik Production kompaniyasiga ishonamiz va ular hech qachon umidsizlikka tushmaydi. Ularning elektronika qutilarini ishlab chiqarish bo'yicha tajribasi chindan ham hayratlanarli. Ularning kuchli va ishonchli qadoqlash yechimlari bilan mahsulotlarimiz jo'natish vaqtida doimo yaxshi himoyalangan ``. - Anna L., texnologiya ishlab chiqaruvchisi"
+    "6":"Qadoqlash materiallarini ishonchli yetkazib beruvchini qidirayotgan har bir kishiga Ravshan Yodik Production kompaniyasini tavsiya qilaman. Ularning yuqori sifatli mahsulotlari va ishga professional yondashuvi ularni biznesdagi ajralmas hamkorga aylantiradi."
   },
   "Products": {
     "0": "Mahsulot haqida batafsil",
@@ -104,7 +106,8 @@
     "8": "Tugmani bosish orqali men maxfiylik siyosatiga rozilik bildiraman",
     "9": "Biz bilan bog'lanish",
     "10": "Savolingizning mohiyatini yozing",
-    "11": "F.I.Sh."
+    "11": "F.I.Sh.",
+    "12":"Jo`natish"
   },
   "Contact": {
     "0": "Aloqa ma'lumotlari",
@@ -133,7 +136,10 @@
     "13": "Manzil",
     "14": "O'zbekiston Respublikasi",
     "15": "1000005 Toshkent",
-    "16": "Yangixayot tumanib Janubiy sanoat zonasi 154"
+    "16": "Yangixayot tumani-Janubiy sanoat zonasi 154",
+    "17":"O'zbekiston Respublikasi 1000005 Toshkent Yangixayot tumani-Janubiy sanoat zonasi 154",
+    "18":"pochta",
+    "19":"Dush-Jum 9-00 - 18-00, tanaffus 13-00 - 14-00 Shanba-Yakshanba dam olish kuni."
   },
   "Modal":{
     "0":"Iltimos, vazn yoki uzunlikni tanlang",

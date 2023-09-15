@@ -1,5 +1,19 @@
 .bg{
-    background-image: url(../../../assets/about/about-bg.png);
-    padding-bottom: 90px;
-    
+    background-image: url(../../../assets/2.png);
+    /* padding-bottom: 90px; */
+}
+
+@media only screen and (max-width: 1030px){
+    .bg{
+        background-position: center left;
+    }
+
+}
+
+@media only screen and (max-width: 585px){
+    .bg{
+        background-position: center left ;
+        /* height: 60vh; */
+    }
+
 }

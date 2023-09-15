@@ -1,7 +1,7 @@
 import { BigContainer } from "../../style-app";
 import styles from "./details.module.css";
 import detailsImg1 from "../../assets/details/details1.png";
-import detailsImg2 from "../../assets/details/details2.png";
+import detailsImg2 from "../../assets/7.png";
 import detailsImg3 from "../../assets/details/details3.png";
 import { Col, Row } from "react-grid-system";
 import { useTranslation } from "react-i18next";
