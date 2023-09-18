@@ -4,7 +4,7 @@ import styles from "./card-comments.module.css";
 export const CardComments = (props) => {
   return (
     <div className={styles.card_comment}>
-      <h3>{props.title}</h3>
+      <h3 style={{whiteSpace: "pre-wrap"}}>{props.title}</h3>
       <div className={styles.card_line}></div>
       <div className={styles.card_stars}>
         <BsFillStarFill className={styles.card_icon} />
@@ -13,7 +13,7 @@ export const CardComments = (props) => {
         <BsFillStarFill className={styles.card_icon} />
         <BsFillStarFill className={styles.card_icon} />
       </div>
-      <p>{props.text}</p>
+      <p style={{whiteSpace: "pre-wrap"}}>{props.text}</p>
     </div>
   );
 };

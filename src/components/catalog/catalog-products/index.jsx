@@ -9,6 +9,7 @@ import { Card } from "../../common/card-common";
 import { CategoryGet } from "../../../redux/category";
 import { ProductGet } from "../../../redux/products";
 import { useSelector, useDispatch } from "react-redux";
+import { useParams } from "react-router-dom";
 
 export const CatalogProducts = () => {
  
@@ -21,62 +22,26 @@ export const CatalogProducts = () => {
   const dispatch = useDispatch()
   const categoryGetState = useSelector((state) => state.category.categoryGet?.data);
 
-  const productGetState = useSelector((state) => state.product.productGet?.data);
-  const [productS, setProductS] = useState(productGetState);
-  console.log(productS)
+  // const productGetState = useSelector((state) => state.product.productGet?.data);
+  // const [productS, setProductS] = useState(productGetState);
   useEffect(() => {
     dispatch(CategoryGet())
   }, [])
 
-  useEffect(() => {
-    dispatch(ProductGet())
-  }, [])
+  // useEffect(() => {
+  //   dispatch(ProductGet())
+  // }, [])
 
-
-
-
-  const HandleFilter = (e) => {
-    e.preventDefault();
-    let filtered = productGetState.filter(
-      (product) => product.id === +e.target.id
-    );
-    setProductS(filtered);
-  };
+  const {id}=useParams();
+  const category=categoryGetState.filter(category=>category.id===+id)[0]
 
   return (
     <div className={styles.catalog_roducts}>
-      <div className={styles.catalog_top}>
-        <BigContainer>
-          <ButtonGroup
-            className={styles.catalog_list}
-            variant="outlined"
-            aria-label="outlined button group"
-          >
-            {categoryGetState.map((item) => (
-              <Button
-                key={item.id}
-                id={item.id}
-                onClick={(e) => HandleFilter(e)}
-              >
-                {
-                  LangVal() == "ru"
-                    ? item.title_ru
-                    : LangVal() == "uz"
-                      ? item.title_uz
-                      : LangVal() == "en"
-                        ? item.title_en
-                        : item.title_ru
-                }
-              </Button>
-            ))}
-          </ButtonGroup>
-        </BigContainer>
-      </div>
       <div className={styles.catalog_bottom}>
         <BigContainer>
           <Row className={styles.catalog_row}>
             {
-              productS?.map(product => (
+              category?.products?.map(product => (
                 <Col
                   className={styles.catalog_col}
                   lg={4}

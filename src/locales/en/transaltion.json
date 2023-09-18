@@ -76,11 +76,11 @@
   "Comments": {
     "0": "Customer Reviews",
     "1": "Review from Sladus Leading",
-    "2": "Dear Ravshan Yodik team, We would like to express our gratitude for your reliable and high-quality cooperation. Working with you has always been a source of confidence for us that our packaging needs will be served to the highest standard. Your products always meet our expectations and make us feel confident that our products will be securely packaged and presented to the market in the best possible condition. We appreciate your dedication to quality and professionalism, and we are proud of our long-term commitment",
+    "2": "Dear Ravshan Yodik team, \n \nWe would like to express our gratitude for your reliable and high-quality cooperation. Working with you has always been a source of confidence for us that our packaging needs will be served to the highest standard. \n \nYour products always meet our expectations and make us feel confident that our products will be securely packaged and presented to the market in the best possible way.",
     "3": "Review from Coca-Cola Company",
-    "4": "I like their professionalism and attentive attitude towards clients. Ravshan Yodik Production staff is always ready to help with the selection of suitable material and answer any questions. Fast order processing and prompt delivery make cooperation with the company as comfortable as possible.",
-    "5": "Rustam Karimov",
-    "6": "I recommend Ravshan Yodik Production to anyone who is looking for a reliable supplier of packaging materials. Their high quality products and professional approach to work make them an indispensable partner in business."
+    "4": "Dear Ravshan Yodik team, \n \nWe thank you for your reliable and high-quality cooperation. Your expertise in producing packaging materials including cardboard boxes, stretch film, foil and shrink film always impresses us. We appreciate your willingness to provide us with innovative solutions and a flexible approach. \n \nThank you for your unmatched service. We look forward to new projects and hope for long-term cooperation with Ravshan Yodik.",
+    "5": "Review from Chernogolovka company",
+    "6": "Dear Ravshan Yodik team, \n \nWe express our deep gratitude for the quality cooperation. Your packaging solutions always meet our high standards. We appreciate your professionalism and willingness to provide us with innovative solutions. \n \nThank you for your contribution to our success. We look forward to further joint projects."
   },
   "Products": {
     "0": "More about the product",
@@ -156,5 +156,16 @@
     "7": "Thickness",
     "8": "Reset",
     "9": "Calculate"
+  },
+  "Work":{
+    "0":"6 reasons to work with us",
+    "1":"Our advantages",
+    "2":"Dozens of fictional and embodied designs, millions of manufactured boxes - our experience knows no bounds. We highly value every client and always work to ensure their satisfaction. We don't stop there. We have modern equipment and high quality raw materials in our arsenal. This allows us to guarantee dynamism and flexibility in our work. We strive for optimal value for money. In addition to boxes, we also specialize in stretch bags, foil and shrink film. Our portfolio includes a wide range of packaging products ready to meet the varied needs of clients.",
+    "3":"Order packaging",
+    "4":"15 years experience in cardboard box production",
+    "5":"We produce environmentally friendly products",
+    "6":"Full production cycle",
+    "7":"We work throughout Uzbekistan",
+    "8":"We produce packaging for export"
   }
 }

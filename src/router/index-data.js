@@ -26,7 +26,7 @@ export const RouterData = [
   },
   {
     id: 3,
-    path: "/catalog",
+    path: "/catalog/:id",
     component: <Catalog />,
   },
   {
