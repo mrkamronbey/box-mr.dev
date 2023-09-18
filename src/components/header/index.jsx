@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./header.module.css";
 import { Row, Col } from "react-grid-system";
 import { Link } from "react-router-dom";
@@ -13,21 +13,44 @@ import { DownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import { BigContainer } from "../../style-app";
 import { Button } from ".././common/button-common/index";
+import { useSelector, useDispatch } from "react-redux";
+import { CategoryGet } from "../../redux/category";
 
 const Header = (props) => {
   const { t } = useTranslation();
+  const LangVal = () => {
+    return window.localStorage.getItem("i18nextLng");
+  };
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const [open, setOpen] = useState(false);
+  const [opens, setOpens] = useState(false);
   const handleMenuClick = (e) => {
     if (e.key === "3") {
       setOpen(false);
     }
   };
+  const handleMenuClicks = (e) => {
+    if (e.key === "3") {
+      setOpens(false);
+    }
+  };
+  const handleOpenChanges = (flag) => {
+    setOpens(flag);
+  };
   const handleOpenChange = (flag) => {
     setOpen(flag);
   };
+  const dispatch = useDispatch();
+  const categoryGetState = useSelector(
+    (state) => state.category.categoryGet?.data
+  );
+
+  useEffect(() => {
+    dispatch(CategoryGet());
+  }, []);
+
   const items = [
     {
       label: <Link to="/about">{t("Header.0")}</Link>,
@@ -80,12 +103,36 @@ const Header = (props) => {
                 >
                   <a onClick={(e) => e.preventDefault()}>
                     <Space>
-                    {t("Header.0")}
+                      {t("Header.0")}
                       <DownOutlined />
                     </Space>
                   </a>
                 </Dropdown>
-                <Link to="/catalog">{t("Header.1")}</Link>
+                <Dropdown
+                  menu={{
+                    items:categoryGetState.map(item=>(
+                      {label:<Link to={`/catalog/${item.id}`} key={item.id}>{
+                        LangVal() == "ru"
+                          ? item.title_ru
+                          : LangVal() == "uz"
+                            ? item.title_uz
+                            : LangVal() == "en"
+                              ? item.title_en
+                              : item.title_ru
+                      }</Link>}
+                    )),
+                    onClick: handleMenuClicks,
+                  }}
+                  onOpenChange={handleOpenChanges}
+                  open={opens}
+                >
+                  <a onClick={(e) => e.preventDefault()}>
+                    <Space>
+                      {t("Header.1")}
+                      <DownOutlined />
+                    </Space>
+                  </a>
+                </Dropdown>
                 <Link to="/services">{t("Header.2")}</Link>
                 <Link to="/blog">{t("Header.3")}</Link>
                 <Link to="/news">{t("Header.4")}</Link>
@@ -135,12 +182,36 @@ const Header = (props) => {
                 >
                   <a onClick={(e) => e.preventDefault()}>
                     <Space>
-                    {t("Header.0")}
+                      {t("Header.0")}
                       <DownOutlined />
                     </Space>
                   </a>
                 </Dropdown>
-                <Link to="/catalog">{t("Header.1")}</Link>
+                <Dropdown
+                  menu={{
+                    items:categoryGetState.map(item=>(
+                      {label:<Link to="/catalog" key={item.id}>{
+                        LangVal() == "ru"
+                          ? item.title_ru
+                          : LangVal() == "uz"
+                            ? item.title_uz
+                            : LangVal() == "en"
+                              ? item.title_en
+                              : item.title_ru
+                      }</Link>}
+                    )),
+                    onClick: handleMenuClicks,
+                  }}
+                  onOpenChange={handleOpenChanges}
+                  open={opens}
+                >
+                  <a onClick={(e) => e.preventDefault()}>
+                    <Space>
+                      {t("Header.1")}
+                      <DownOutlined />
+                    </Space>
+                  </a>
+                </Dropdown>
                 <Link to="/services">{t("Header.2")}</Link>
                 <Link to="/blog">{t("Header.3")}</Link>
                 <Link to="/news">{t("Header.4")}</Link>

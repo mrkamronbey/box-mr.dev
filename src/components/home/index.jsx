@@ -6,6 +6,7 @@ import { Products } from "../products";
 import { Factory } from "./factory";
 import { Details } from "../details";
 import { Comments } from "../comments";
+import { HomeCards } from "./cards";
 
 const HomeComponent = () => {
   return (
@@ -14,6 +15,7 @@ const HomeComponent = () => {
     <Details/>
     <Products/>
     <Factory/>
+    <HomeCards/>
     <Partner/>
     <Comments/>
     <Form/>
