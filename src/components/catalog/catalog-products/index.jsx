@@ -54,21 +54,21 @@ export const CatalogProducts = () => {
                   <Card
                     title={
                       LangVal() == "ru"
-                        ? `${product.title_ru.slice(0, 30)}...`
+                        ? `${product.title_ru?.slice(0, 30)}...`
                         : LangVal() == "uz"
-                        ? `${product.title_uz.slice(0, 30)}...`
+                        ? `${product.title_uz?.slice(0, 30)}...`
                         : LangVal() == "en"
-                        ? `${product.title_en.slice(0, 30)}...`
-                        : `${product.title_ru.slice(0, 30)}...`
+                        ? `${product.title_en?.slice(0, 30)}...`
+                        : `${product.title_ru?.slice(0, 30)}...`
                     }
                     text={
                       LangVal() == "ru"
-                        ? `${product.description_ru.slice(0,50)}...`
+                        ? `${product.description_ru?.slice(0,50)}...`
                         : LangVal() == "uz"
-                          ? `${product.description_uz.slice(0,50)}...`
+                          ? `${product.description_uz?.slice(0,50)}...`
                           : LangVal() == "en"
-                            ? `${product.description_en.slice(0,50)}...`
-                            : `${product.description_ru.slice(0,50)}...`
+                            ? `${product.description_en?.slice(0,50)}...`
+                            : `${product.description_ru?.slice(0,50)}...`
                     }
                     image={product.image}
                     id={product.id}

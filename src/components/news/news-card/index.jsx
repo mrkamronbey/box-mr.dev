@@ -73,17 +73,17 @@ const NewsCard = () => {
                         </h4>
                         <p>
                           {LangVal() == "ru"
-                            ? `${elem.description_ru.slice(0, 248)}...`
+                            ? `${elem.description_ru?.slice(0, 248)}...`
                             : LangVal() == "uz"
-                            ? `${elem.description_uz.slice(0, 248)}...`
+                            ? `${elem.description_uz?.slice(0, 248)}...`
                             : LangVal() == "en"
-                            ? `${elem.description_en.slice(0, 248)}...`
-                            : `${elem.description_ru.slice(0, 248)}...`}
+                            ? `${elem.description_en?.slice(0, 248)}...`
+                            : `${elem.description_ru?.slice(0, 248)}...`}
                         </p>
                         <span>
                           <i class="bx bx-calendar"></i>
                           <time className={styles.time_span}>
-                            {elem.createdAt.slice(11, 16)}
+                            {elem.createdAt?.slice(11, 16)}
                           </time>
                           /
                           <time className="date_span">

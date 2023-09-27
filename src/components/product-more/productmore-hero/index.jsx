@@ -1,19 +1,28 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Button } from "../../common/button-common/index"
-import HeroCommon from "../../common/hero-common";
 import styles from './style.module.css';
+import NewHeroCommon from './../../common/new-hero/index';
 
-const ProductMoreHero = () => {
+const ProductMoreHero = ({filterProduct}) => {
   const { t } = useTranslation();
+  const LangVal = () => {
+    return window.localStorage.getItem("i18nextLng");
+  };
   return (
     <>
-      <HeroCommon
+      <NewHeroCommon
        className={styles.bg}
-        heroTitle={t("Home.4")}
-        isBtn={true}
-        heroBtn={<Button>{t("ProductMore.2")}</Button>}
-        id={"form"}
+       heroTitle={
+        filterProduct.map(product => (
+          LangVal() == "ru"
+            ? product.title_ru
+            : LangVal() == "uz"
+              ? product.title_uz
+              : LangVal() == "en"
+                ? product.title_en
+                : product.title_ru
+        ))
+      }
       />
     </>
   );

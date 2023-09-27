@@ -1,10 +1,4 @@
 .bg{
-    background-image: url(../../../assets/products/product-more-bg.png);
+    background-image: url(../../../assets/home/bg-gofrokorobki.jpg);
 }
 
-@media only screen and (max-width: 1030px){
-    .bg{
-        background-position: center left;
-    }
-
-}

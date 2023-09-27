@@ -118,7 +118,7 @@ const ProductFactory = () => {
           <div className="product_factory_slider_wrapp">
             <BigContainer>
             <Row className={styles.row}>
-              {productGetState.slice(0, 3).map((product) => (
+              {productGetState?.slice(0, 3).map((product) => (
                 // <div className="slider_card_box">
                 <Col
                   className={styles.col}
@@ -131,21 +131,21 @@ const ProductFactory = () => {
                   <Card
                     title={
                       LangVal() == "ru"
-                        ? `${product.title_ru.slice(0, 30)}...`
+                        ? `${product.title_ru?.slice(0, 30)}...`
                         : LangVal() == "uz"
-                        ? `${product.title_uz.slice(0, 30)}...`
+                        ? `${product.title_uz?.slice(0, 30)}...`
                         : LangVal() == "en"
-                        ? `${product.title_en.slice(0, 30)}...`
-                        : `${product.title_ru.slice(0, 30)}...`
+                        ? `${product.title_en?.slice(0, 30)}...`
+                        : `${product.title_ru?.slice(0, 30)}...`
                     }
                     text={
                       LangVal() == "ru"
-                        ? `${product.description_ru.slice(0, 30)}...`
+                        ? `${product.description_ru?.slice(0, 30)}...`
                         : LangVal() == "uz"
-                        ? `${product.description_uz.slice(0, 30)}...`
+                        ? `${product.description_uz?.slice(0, 30)}...`
                         : LangVal() == "en"
-                        ? `${product.description_en.slice(0, 30)}...`
-                        : `${product.description_ru.slice(0, 30)}...`
+                        ? `${product.description_en?.slice(0, 30)}...`
+                        : `${product.description_ru?.slice(0, 30)}...`
                     }
                     image={product.image}
                     id={product.id}

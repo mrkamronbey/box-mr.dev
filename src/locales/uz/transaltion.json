@@ -21,7 +21,7 @@
     "3":"Katalog",
     "4":"Tafsilotlar, sifat, ishtiyoq: Mahsulotlar toifalari",
     "5":"Blog",
-    "6":"Vakansiya",
+    "6":"Yangiliklar",
     "7":"Xizmatlar",
     "Factory": {
       "0": "Maxsus quti dizayni:",
@@ -141,19 +141,6 @@
     "18": "pochta",
     "19": "Dush-Jum 9-00 - 18-00, tanaffus 13-00 - 14-00 Shanba-Yakshanba dam olish kuni."
   },
-  "Modal": {
-    "0": "Iltimos, vazn yoki uzunlikni tanlang",
-    "1": "iltimos, anketani to'liq to'ldiring",
-    "2": "Filmlarni hisoblash",
-    "3": "Film uzunligini hisoblash uchun ma'lumotlarni kiriting",
-    "4": "Og'irlik",
-    "5": "Uzunlik",
-    "6": "Kengligi",
-    "7": "Qalinligi",
-    "8": "Tozalash",
-    "9": "Hisoblash"
-  },
-
   "Vacansy": {
     "0": "Rezyumeni to'ldiring",
     "1": "shaklni to'ldiring",

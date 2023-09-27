@@ -56,7 +56,7 @@ const NewsMoreInfo = () => {
                       </h4>
                       <span>
                         <i class='bx bx-calendar'></i>
-                        <time className={styles.time_span}>{elem.createdAt.slice(11, 16)}</time>
+                        <time className={styles.time_span}>{elem.createdAt?.slice(11, 16)}</time>
                         /
                         <time className="date_span">{DateFormat(elem.createdAt)}</time>
                       </span>

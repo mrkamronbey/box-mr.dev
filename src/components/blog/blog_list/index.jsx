@@ -40,25 +40,25 @@ export const Blog = () => {
                     LangVal() == "ru" ? (
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: `${blog.description_ru.slice(0, 60)}...`,
+                          __html: `${blog.description_ru?.slice(0, 60)}...`,
                         }}
                       />
                     ) : LangVal() == "uz" ? (
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: `${blog.description_uz.slice(0, 60)}...`,
+                          __html: `${blog.description_uz?.slice(0, 60)}...`,
                         }}
                       />
                     ) : LangVal() == "en" ? (
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: `${blog.description_en.slice(0, 60)}...`,
+                          __html: `${blog.description_en?.slice(0, 60)}...`,
                         }}
                       />
                     ) : (
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: `${blog.description_ru.slice(0, 60)}...`,
+                          __html: `${blog.description_ru?.slice(0, 60)}...`,
                         }}
                       />
                     )

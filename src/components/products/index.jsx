@@ -38,36 +38,36 @@ export const Products = () => {
               <Card
                 title={
                   LangVal() == "ru"
-                    ? `${product.title_ru.slice(0, 20)}...`
+                    ? `${product.title_ru?.slice(0, 20)}...`
                     : LangVal() == "uz"
-                    ? `${product.title_uz.slice(0, 20)}...`
+                    ? `${product.title_uz?.slice(0, 20)}...`
                     : LangVal() == "en"
-                    ? `${product.title_en.slice(0, 20)}...`
-                    : `${product.title_ru.slice(0, 20)}...`
+                    ? `${product.title_en?.slice(0, 20)}...`
+                    : `${product.title_ru?.slice(0, 20)}...`
                 }
                 text={
                   LangVal() == "ru" ? (
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: `${product.description_ru.slice(0,40)}...`,
+                        __html: `${product.description_ru?.slice(0,40)}...`,
                       }}
                     />
                   ) : LangVal() == "uz" ? (
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: `${product.description_uz.slice(0,40)}...`,
+                        __html: `${product.description_uz?.slice(0,40)}...`,
                       }}
                     />
                   ) : LangVal() == "en" ? (
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: `${product.description_en.slice(0,40)}...`,
+                        __html: `${product.description_en?.slice(0,40)}...`,
                       }}
                     />
                   ) : (
                     <div
                       dangerouslySetInnerHTML={{
-                        __html: `${product.description_ru.slice(0,40)}...`,
+                        __html: `${product.description_ru?.slice(0,40)}...`,
                       }}
                     />
                   )

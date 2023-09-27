@@ -55,7 +55,7 @@ const NewsMoreCard = () => {
                                 </h4>
                                 <span>
                                     <i class='bx bx-calendar'></i>
-                                    <time>{elem.createdAt.slice(11, 16)}</time>
+                                    <time>{elem.createdAt?.slice(11, 16)}</time>
                                     /
                                     <time>{DateFormat(elem.createdAt)}</time>
                                 </span>
