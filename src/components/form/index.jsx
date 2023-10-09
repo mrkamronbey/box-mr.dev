@@ -35,7 +35,7 @@ export const Form = () => {
                 <HiPhone size={25} color="#ffffff" />
               </li>
               <li className={styles.form_item_tel}>
-                <a href="+998933911171">+998 93 (391) - 11 - 71</a>
+                <a href="+998933911171">+998 (93) 391 - 11 - 71</a>
                 <a href="+998931304144">+998 93 (130) -41 - 44</a>
               </li>
             </ul>

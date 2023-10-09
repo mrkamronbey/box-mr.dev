@@ -145,9 +145,9 @@ const Header = (props) => {
                 sx={4}
                 sm={4}
               >
-                <a href="tel:+998931304144">
+                <a href="tel:+998933911171">
                   <HiPhone className={styles.icon} />
-                  <span className={styles.span}>+(93) 130-41-44</span>
+                  <span className={styles.span}>+998 (93) 391 11 71</span>
                 </a>
                 <a href="mailto:m.buriev@yodik.uz">
                   <MdMail className={styles.icon} />
